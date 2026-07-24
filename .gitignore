@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+node_modules/
+web/dist/
+web/public/data/*.json
+*.log
+.playwright/
