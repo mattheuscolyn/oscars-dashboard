@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { LatestData, SourceKey } from '../types'
 import { formatExpected, formatPct, releaseLabel } from '../utils'
+import { PosterThumb } from './PosterThumb'
 import { SourceToggle } from './SourceToggle'
 
 interface Props {
@@ -83,7 +84,12 @@ export function WatchPriority({ latest, source, onSourceChange }: Props) {
             {rows.map((row, i) => (
               <tr key={row.film} className={!row.has_metadata ? 'missing' : ''}>
                 <td className="num">{i + 1}</td>
-                <td className="film">{row.film}</td>
+                <td className="film">
+                  <span className="film-cell">
+                    <PosterThumb url={row.poster_url} alt={row.film} />
+                    <span>{row.film}</span>
+                  </span>
+                </td>
                 <td className="num strong">{formatPct(row.p_at_least_one)}</td>
                 <td className="num">{formatExpected(row.expected_noms)}</td>
                 <td className="cats">

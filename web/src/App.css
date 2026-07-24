@@ -307,6 +307,35 @@ main,
   font-weight: 600;
 }
 
+.film-cell {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  min-width: 0;
+}
+
+.poster-thumb {
+  flex-shrink: 0;
+  object-fit: cover;
+  background: color-mix(in srgb, var(--rule) 45%, var(--paper));
+  border: 1px solid var(--rule);
+  display: block;
+}
+
+.poster-thumb.sm {
+  width: 28px;
+  height: 42px;
+}
+
+.poster-thumb.md {
+  width: 40px;
+  height: 60px;
+}
+
+.poster-thumb.placeholder {
+  display: inline-block;
+}
+
 .cat-chip {
   display: inline-block;
   font-family: var(--font-ui);

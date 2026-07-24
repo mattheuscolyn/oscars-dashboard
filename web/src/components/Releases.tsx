@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { LatestData } from '../types'
 import { csvStub } from '../utils'
+import { PosterThumb } from './PosterThumb'
 
 interface Props {
   latest: LatestData
@@ -65,11 +66,14 @@ export function Releases({ latest }: Props) {
             <ul className="release-list">
               {dated.map((f) => (
                 <li key={f.film}>
-                  <div className="film">
-                    {f.film}
-                    {f.certification ? (
-                      <span className="cert"> {f.certification}</span>
-                    ) : null}
+                  <div className="film film-cell">
+                    <PosterThumb url={f.poster_url} alt={f.film} size="md" />
+                    <span>
+                      {f.film}
+                      {f.certification ? (
+                        <span className="cert"> {f.certification}</span>
+                      ) : null}
+                    </span>
                   </div>
                   <div className="meta">
                     {f.premiere_date && (

@@ -11,6 +11,8 @@ export interface WatchRow {
   expected_noms: number
   categories: CategoryPct[]
   tmdb_id: string
+  poster_path: string
+  poster_url: string
   certification: string
   premiere_date: string
   theatrical_date: string
@@ -32,6 +34,8 @@ export interface Contestant {
 export interface FilmMeta {
   film: string
   tmdb_id: string
+  poster_path: string
+  poster_url: string
   certification: string
   premiere_date: string
   theatrical_date: string

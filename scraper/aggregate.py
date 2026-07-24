@@ -17,6 +17,16 @@ FILMS_CSV = ROOT / "data" / "films.csv"
 OUT_DIR = ROOT / "web" / "public" / "data"
 
 SOURCES = ("combined", "users", "editors", "experts")
+TMDB_POSTER_BASE = "https://image.tmdb.org/t/p/w92"
+
+
+def poster_url(path: str) -> str:
+    path = (path or "").strip()
+    if not path:
+        return ""
+    if path.startswith("http"):
+        return path
+    return f"{TMDB_POSTER_BASE}{path}"
 
 
 def load_films(path: Path) -> dict[str, dict[str, str]]:
@@ -30,6 +40,8 @@ def load_films(path: Path) -> dict[str, dict[str, str]]:
                 films[name] = {
                     "film": name,
                     "tmdb_id": (row.get("tmdb_id") or "").strip(),
+                    "poster_path": (row.get("poster_path") or "").strip(),
+                    "poster_url": poster_url(row.get("poster_path") or ""),
                     "certification": (row.get("certification") or "").strip(),
                     "premiere_date": (row.get("premiere_date") or "").strip(),
                     "theatrical_date": (row.get("theatrical_date") or "").strip(),
@@ -120,6 +132,8 @@ def build_watch_priority(
                     "expected_noms": metrics["expected_noms"],
                     "categories": metrics["categories"],
                     "tmdb_id": meta.get("tmdb_id", ""),
+                    "poster_path": meta.get("poster_path", ""),
+                    "poster_url": meta.get("poster_url", ""),
                     "certification": meta.get("certification", ""),
                     "premiere_date": meta.get("premiere_date", ""),
                     "theatrical_date": meta.get("theatrical_date", ""),

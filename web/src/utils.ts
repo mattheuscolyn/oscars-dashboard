@@ -96,7 +96,24 @@ export function alwaysTopN(
 
 export function csvStub(films: string[]): string {
   const header =
-    'film,tmdb_id,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source'
-  const rows = films.map((f) => `"${f.replace(/"/g, '""')}",,,,,,,,,manual`)
+    'film,tmdb_id,poster_path,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source'
+  const rows = films.map((f) => `"${f.replace(/"/g, '""')}",,,,,,,,,,manual`)
   return [header, ...rows].join('\n')
+}
+
+/** Build film → poster_url map from latest payload. */
+export function posterIndex(latest: {
+  films: { film: string; poster_url?: string }[]
+  watch_priority?: Record<string, { film: string; poster_url?: string }[]>
+}): Record<string, string> {
+  const m: Record<string, string> = {}
+  for (const f of latest.films || []) {
+    if (f.poster_url) m[f.film] = f.poster_url
+  }
+  for (const rows of Object.values(latest.watch_priority || {})) {
+    for (const r of rows) {
+      if (r.poster_url && !m[r.film]) m[r.film] = r.poster_url
+    }
+  }
+  return m
 }

@@ -11,6 +11,7 @@ from typing import Any
 FILM_FIELDS = [
     "film",
     "tmdb_id",
+    "poster_path",
     "certification",
     "premiere_date",
     "theatrical_date",

@@ -233,10 +233,17 @@ def enrich_film(title: str, existing: dict[str, str] | None) -> dict[str, str]:
     if existing:
         row.update({k: existing.get(k, "") for k in FILM_FIELDS})
 
-    if (row.get("source") or "").strip().lower() == "manual":
+    is_manual = (row.get("source") or "").strip().lower() == "manual"
+    tmdb_id = (row.get("tmdb_id") or "").strip()
+
+    if is_manual:
+        # Still fill poster when possible so manual rows get thumbnails
+        if tmdb_id and not (row.get("poster_path") or "").strip():
+            details = tmdb_get(f"/movie/{int(tmdb_id)}")
+            time.sleep(0.2)
+            row["poster_path"] = (details.get("poster_path") or "").strip()
         return row
 
-    tmdb_id = (row.get("tmdb_id") or "").strip()
     match = None
     if tmdb_id:
         match = {"id": int(tmdb_id)}
@@ -246,8 +253,16 @@ def enrich_film(title: str, existing: dict[str, str] | None) -> dict[str, str]:
             row["source"] = "not_found"
             return row
         row["tmdb_id"] = str(match["id"])
+        if match.get("poster_path"):
+            row["poster_path"] = (match.get("poster_path") or "").strip()
 
     movie_id = int(row["tmdb_id"])
+    if not (row.get("poster_path") or "").strip():
+        details = tmdb_get(f"/movie/{movie_id}")
+        time.sleep(0.2)
+        if details.get("poster_path"):
+            row["poster_path"] = (details.get("poster_path") or "").strip()
+
     releases = tmdb_get(f"/movie/{movie_id}/release_dates")
     time.sleep(0.2)
     summary = summarize_us_releases(releases)

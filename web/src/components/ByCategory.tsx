@@ -10,7 +10,8 @@ import {
   YAxis,
 } from 'recharts'
 import type { HistoryData, LatestData, SourceKey } from '../types'
-import { formatPct } from '../utils'
+import { formatPct, posterIndex } from '../utils'
+import { PosterThumb } from './PosterThumb'
 import { SourceToggle } from './SourceToggle'
 
 const PALETTE = [
@@ -45,6 +46,8 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
       : categories[0] || ''
 
   const standings = latest.categories[source]?.[activeCategory] || []
+
+  const posters = useMemo(() => posterIndex(latest), [latest])
 
   const topKeys = useMemo(() => {
     return standings.slice(0, 8).map((r) => seriesKey(r.candidate, r.film))
@@ -230,7 +233,15 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
               return (
                 <tr key={`${row.rank}-${row.candidate}-${row.film}`}>
                   <td className="num">{row.rank}</td>
-                  <td>{row.candidate}</td>
+                  <td>
+                    <span className="film-cell">
+                      <PosterThumb
+                        url={posters[row.film]}
+                        alt={row.film}
+                      />
+                      <span>{row.candidate}</span>
+                    </span>
+                  </td>
                   <td className="film">{row.film}</td>
                   <td className="num strong">{formatPct(row.pct)}</td>
                   <td className="spark">
