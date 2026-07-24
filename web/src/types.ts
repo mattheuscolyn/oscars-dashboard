@@ -10,11 +10,15 @@ export interface WatchRow {
   p_at_least_one: number
   expected_noms: number
   categories: CategoryPct[]
+  tmdb_id: string
+  certification: string
+  premiere_date: string
   theatrical_date: string
   theatrical_type: string
   streaming_date: string
   streaming_platform: string
   notes: string
+  source: string
   has_metadata: boolean
 }
 
@@ -27,11 +31,15 @@ export interface Contestant {
 
 export interface FilmMeta {
   film: string
+  tmdb_id: string
+  certification: string
+  premiere_date: string
   theatrical_date: string
   theatrical_type: string
   streaming_date: string
   streaming_platform: string
   notes: string
+  source: string
 }
 
 export interface LatestData {

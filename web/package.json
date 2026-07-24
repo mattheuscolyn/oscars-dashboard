@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "prebuild": "python ../scraper/aggregate.py",
+    "prebuild": "cd .. && python -m scraper.aggregate",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
-    "aggregate": "python ../scraper/aggregate.py"
+    "aggregate": "cd .. && python -m scraper.aggregate"
   },
   "dependencies": {
     "react": "^19.2.7",

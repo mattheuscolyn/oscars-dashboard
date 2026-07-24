@@ -1,1 +1,1 @@
-film,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes
+film,tmdb_id,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source

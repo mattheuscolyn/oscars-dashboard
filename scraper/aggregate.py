@@ -9,6 +9,8 @@ import math
 from pathlib import Path
 from typing import Any
 
+from .films import has_release_info
+
 ROOT = Path(__file__).resolve().parent.parent
 SNAPSHOTS_DIR = ROOT / "data" / "snapshots"
 FILMS_CSV = ROOT / "data" / "films.csv"
@@ -27,11 +29,15 @@ def load_films(path: Path) -> dict[str, dict[str, str]]:
             if name:
                 films[name] = {
                     "film": name,
+                    "tmdb_id": (row.get("tmdb_id") or "").strip(),
+                    "certification": (row.get("certification") or "").strip(),
+                    "premiere_date": (row.get("premiere_date") or "").strip(),
                     "theatrical_date": (row.get("theatrical_date") or "").strip(),
                     "theatrical_type": (row.get("theatrical_type") or "").strip(),
                     "streaming_date": (row.get("streaming_date") or "").strip(),
                     "streaming_platform": (row.get("streaming_platform") or "").strip(),
                     "notes": (row.get("notes") or "").strip(),
+                    "source": (row.get("source") or "").strip(),
                 }
     return films
 
@@ -102,18 +108,27 @@ def build_watch_priority(
         for film, cat_probs in film_probs.items():
             metrics = watch_metrics(cat_probs)
             meta = films_meta.get(film, {})
+            has_dates = bool(
+                meta.get("theatrical_date")
+                or meta.get("streaming_date")
+                or meta.get("premiere_date")
+            )
             rows.append(
                 {
                     "film": film,
                     "p_at_least_one": metrics["p_at_least_one"],
                     "expected_noms": metrics["expected_noms"],
                     "categories": metrics["categories"],
+                    "tmdb_id": meta.get("tmdb_id", ""),
+                    "certification": meta.get("certification", ""),
+                    "premiere_date": meta.get("premiere_date", ""),
                     "theatrical_date": meta.get("theatrical_date", ""),
                     "theatrical_type": meta.get("theatrical_type", ""),
                     "streaming_date": meta.get("streaming_date", ""),
                     "streaming_platform": meta.get("streaming_platform", ""),
                     "notes": meta.get("notes", ""),
-                    "has_metadata": film in films_meta,
+                    "source": meta.get("source", ""),
+                    "has_metadata": has_dates,
                 }
             )
         rows.sort(key=lambda r: (-r["p_at_least_one"], -r["expected_noms"], r["film"]))
@@ -154,14 +169,29 @@ def build_history(
                     film = (entry.get("film") or "").strip()
                     if not film:
                         continue
-                    category[source][cat_name].setdefault(film, []).append(
+                    candidate = (entry.get("candidate") or film).strip()
+                    # Key people-category series by candidate+film so co-stars don't merge
+                    series_id = film if candidate == film else f"{candidate} || {film}"
+                    category[source][cat_name].setdefault(series_id, []).append(
                         {
                             "date": date,
                             "pct": float(entry.get("pct") or 0),
                             "rank": int(entry.get("rank") or 0),
-                            "candidate": entry.get("candidate") or film,
+                            "candidate": candidate,
+                            "film": film,
                         }
                     )
+                    # Also keep film-keyed series for backward-compatible sparklines
+                    if series_id != film:
+                        category[source][cat_name].setdefault(film, []).append(
+                            {
+                                "date": date,
+                                "pct": float(entry.get("pct") or 0),
+                                "rank": int(entry.get("rank") or 0),
+                                "candidate": candidate,
+                                "film": film,
+                            }
+                        )
 
     return {"dates": dates, "watch": watch, "category": category}
 
@@ -220,7 +250,13 @@ def aggregate() -> dict[str, Path]:
     for source_rows in watch_priority.values():
         for row in source_rows:
             all_films.add(row["film"])
-    missing = sorted(all_films - set(films_meta.keys()))
+    missing = sorted(
+        film
+        for film in all_films
+        if film not in films_meta
+        or (films_meta[film].get("source") or "").lower() in {"not_found", "error"}
+        or not has_release_info(films_meta[film])
+    )
 
     latest = {
         "scraped_at": latest_snap.get("scraped_at"),

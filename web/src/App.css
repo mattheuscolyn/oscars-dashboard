@@ -465,6 +465,18 @@ main,
   width: 120px;
 }
 
+.cert {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--gold);
+  margin-left: 0.35rem;
+}
+
+.release-list a {
+  color: var(--gold);
+}
+
 .muted {
   color: var(--rule);
 }

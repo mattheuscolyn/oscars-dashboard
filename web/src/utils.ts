@@ -8,16 +8,20 @@ export function formatExpected(n: number): string {
   return n.toFixed(2)
 }
 
-export function releaseLabel(row: Pick<WatchRow, 'theatrical_date' | 'theatrical_type' | 'streaming_date' | 'streaming_platform' | 'has_metadata'>): string {
+export function releaseLabel(row: Pick<WatchRow, 'premiere_date' | 'theatrical_date' | 'theatrical_type' | 'streaming_date' | 'streaming_platform' | 'certification' | 'has_metadata'>): string {
   if (!row.has_metadata) return 'Missing metadata'
   const parts: string[] = []
   if (row.theatrical_date) {
     const type = row.theatrical_type ? ` (${row.theatrical_type})` : ''
-    parts.push(`Theaters ${row.theatrical_date}${type}`)
+    const cert = row.certification ? ` ${row.certification}` : ''
+    parts.push(`Theaters ${row.theatrical_date}${type}${cert}`)
   }
   if (row.streaming_date) {
     const plat = row.streaming_platform ? ` · ${row.streaming_platform}` : ''
-    parts.push(`Streaming ${row.streaming_date}${plat}`)
+    parts.push(`Digital ${row.streaming_date}${plat}`)
+  }
+  if (row.premiere_date && !row.theatrical_date) {
+    parts.push(`Premiere ${row.premiere_date}`)
   }
   if (!parts.length) return 'Dates TBA'
   return parts.join(' · ')
@@ -91,7 +95,8 @@ export function alwaysTopN(
 }
 
 export function csvStub(films: string[]): string {
-  const header = 'film,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes'
-  const rows = films.map((f) => `"${f.replace(/"/g, '""')}",,,,,`)
+  const header =
+    'film,tmdb_id,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source'
+  const rows = films.map((f) => `"${f.replace(/"/g, '""')}",,,,,,,,,manual`)
   return [header, ...rows].join('\n')
 }

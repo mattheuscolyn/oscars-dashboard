@@ -34,6 +34,12 @@ jobs:
       - name: Scrape odds
         run: python scrape.py --force
 
+      - name: Enrich releases from TMDB
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
+          TMDB_READ_ACCESS_TOKEN: ${{ secrets.TMDB_READ_ACCESS_TOKEN }}
+        run: python -m scraper.tmdb
+
       - name: Aggregate for site
         run: python -m scraper.aggregate
 
