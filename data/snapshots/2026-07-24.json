@@ -1,5 +1,5 @@
 {
-  "scraped_at": "2026-07-24T17:45:58.528214+00:00",
+  "scraped_at": "2026-07-24T18:20:43.482378+00:00",
   "season": "2027",
   "sources": {
     "users": {
@@ -197,32 +197,32 @@
           "pct": 0.82
         },
         {
+          "film": "Clarissa",
+          "candidate": "Clarissa",
+          "rank": 33,
+          "pct": 0.52
+        },
+        {
           "film": "I Play Rocky",
           "candidate": "I Play Rocky",
-          "rank": 33,
+          "rank": 34,
           "pct": 0.52
         },
         {
           "film": "Is God Is",
           "candidate": "Is God Is",
-          "rank": 34,
+          "rank": 35,
           "pct": 0.52
         },
         {
           "film": "The Sheep Detectives",
           "candidate": "The Sheep Detectives",
-          "rank": 35,
+          "rank": 36,
           "pct": 0.52
         },
         {
           "film": "Teenage Sex and Death at Camp Miasma",
           "candidate": "Teenage Sex and Death at Camp Miasma",
-          "rank": 36,
-          "pct": 0.52
-        },
-        {
-          "film": "Clarissa",
-          "candidate": "Clarissa",
           "rank": 37,
           "pct": 0.52
         },
@@ -497,6 +497,402 @@
           "candidate": "Cristian Mungiu",
           "rank": 5,
           "pct": 53.2
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Denis Villeneuve",
+          "rank": 6,
+          "pct": 33.2
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Phil Lord, Christopher Miller",
+          "rank": 7,
+          "pct": 22.7
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 8,
+          "pct": 18.69
+        },
+        {
+          "film": "Behemoth!",
+          "candidate": "Tony Gilroy",
+          "rank": 9,
+          "pct": 12.97
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Ryusuke Hamaguchi",
+          "rank": 10,
+          "pct": 8.73
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Curry Barker",
+          "rank": 11,
+          "pct": 6.87
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Pawel Pawlikowski",
+          "rank": 12,
+          "pct": 2.78
+        },
+        {
+          "film": "Disclosure Day",
+          "candidate": "Steven Spielberg",
+          "rank": 13,
+          "pct": 1.62
+        },
+        {
+          "film": "The Debut",
+          "candidate": "Jesse Eisenberg",
+          "rank": 14,
+          "pct": 1.24
+        },
+        {
+          "film": "Josephine",
+          "candidate": "Beth de Araújo",
+          "rank": 15,
+          "pct": 1.24
+        },
+        {
+          "film": "Backrooms",
+          "candidate": "Kane Parsons",
+          "rank": 16,
+          "pct": 1.08
+        },
+        {
+          "film": "The Adventures of Cliff Booth",
+          "candidate": "David Fincher",
+          "rank": 17,
+          "pct": 0.85
+        },
+        {
+          "film": "Artificial",
+          "candidate": "Luca Guadagnino",
+          "rank": 18,
+          "pct": 0.69
+        },
+        {
+          "film": "A Place in Hell",
+          "candidate": "Chloe Domont",
+          "rank": 19,
+          "pct": 0.69
+        },
+        {
+          "film": "The Devil Wears Prada 2",
+          "candidate": "David Frankel",
+          "rank": 20,
+          "pct": 0.62
+        },
+        {
+          "film": "Michael",
+          "candidate": "Antoine Fuqua",
+          "rank": 21,
+          "pct": 0.54
+        },
+        {
+          "film": "Sense and Sensibility",
+          "candidate": "Georgia Oakley",
+          "rank": 22,
+          "pct": 0.54
+        },
+        {
+          "film": "Werwulf",
+          "candidate": "Robert Eggers",
+          "rank": 23,
+          "pct": 0.54
+        },
+        {
+          "film": "Being Heumann",
+          "candidate": "Sian Heder",
+          "rank": 24,
+          "pct": 0.46
+        },
+        {
+          "film": "The Social Reckoning",
+          "candidate": "Aaron Sorkin",
+          "rank": 25,
+          "pct": 0.39
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Lance Oppenheim",
+          "rank": 26,
+          "pct": 0.31
+        },
+        {
+          "film": "Teenage Sex and Death at Camp Miasma",
+          "candidate": "Jane Schoenbrun",
+          "rank": 27,
+          "pct": 0.31
+        },
+        {
+          "film": "Ink",
+          "candidate": "Danny Boyle",
+          "rank": 28,
+          "pct": 0.31
+        },
+        {
+          "film": "I Play Rocky",
+          "candidate": "Peter Farrelly",
+          "rank": 29,
+          "pct": 0.23
+        },
+        {
+          "film": "Is God Is",
+          "candidate": "Aleshea Harris",
+          "rank": 30,
+          "pct": 0.23
+        },
+        {
+          "film": "Wuthering Heights",
+          "candidate": "Emerald Fennell",
+          "rank": 31,
+          "pct": 0.23
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Jordan Firstman",
+          "rank": 32,
+          "pct": 0.15
+        },
+        {
+          "film": "Coward",
+          "candidate": "Lukas Dhont",
+          "rank": 33,
+          "pct": 0.15
+        },
+        {
+          "film": "Mother Mary",
+          "candidate": "David Lowery",
+          "rank": 34,
+          "pct": 0.15
+        },
+        {
+          "film": "Paper Tiger",
+          "candidate": "James Gray",
+          "rank": 35,
+          "pct": 0.15
+        },
+        {
+          "film": "Saturn Return",
+          "candidate": "Greg Kwedar",
+          "rank": 36,
+          "pct": 0.15
+        },
+        {
+          "film": "Whalefall",
+          "candidate": "Brian Duffield",
+          "rank": 37,
+          "pct": 0.15
+        },
+        {
+          "film": "Here Comes the Flood",
+          "candidate": "Fernando Meirelles",
+          "rank": 38,
+          "pct": 0.08
+        },
+        {
+          "film": "Hope",
+          "candidate": "Na Hong-jin",
+          "rank": 39,
+          "pct": 0.08
+        },
+        {
+          "film": "I Love Boosters",
+          "candidate": "Boots Riley",
+          "rank": 40,
+          "pct": 0.08
+        },
+        {
+          "film": "Klara and the Sun",
+          "candidate": "Taika Waititi",
+          "rank": 41,
+          "pct": 0.08
+        },
+        {
+          "film": "Madden",
+          "candidate": "David O. Russell",
+          "rank": 42,
+          "pct": 0.08
+        },
+        {
+          "film": "Minotaur",
+          "candidate": "Andrey Zvyagintsev",
+          "rank": 43,
+          "pct": 0.08
+        },
+        {
+          "film": "Pressure",
+          "candidate": "Anthony Maras",
+          "rank": 44,
+          "pct": 0.08
+        },
+        {
+          "film": "Tuner",
+          "candidate": "Daniel Roher",
+          "rank": 45,
+          "pct": 0.08
+        },
+        {
+          "film": "The Uprising",
+          "candidate": "Paul Greengrass",
+          "rank": 46,
+          "pct": 0.08
+        },
+        {
+          "film": "Wicker",
+          "candidate": "Alex Huston Fischer, Eleanor Wilson",
+          "rank": 47,
+          "pct": 0.08
+        },
+        {
+          "film": "Poetic License",
+          "candidate": "Maude Apatow",
+          "rank": 48,
+          "pct": 0.08
+        },
+        {
+          "film": "Bitter Christmas",
+          "candidate": "Pedro Almodovar",
+          "rank": 49,
+          "pct": 0.0
+        },
+        {
+          "film": "The Christophers",
+          "candidate": "Steven Soderbergh",
+          "rank": 50,
+          "pct": 0.0
+        },
+        {
+          "film": "Clarissa",
+          "candidate": "Arie Esiri, Chuko Esiri",
+          "rank": 51,
+          "pct": 0.0
+        },
+        {
+          "film": "Couture",
+          "candidate": "Alice Winocour",
+          "rank": 52,
+          "pct": 0.0
+        },
+        {
+          "film": "The Dog Stars",
+          "candidate": "Ridley Scott",
+          "rank": 53,
+          "pct": 0.0
+        },
+        {
+          "film": "Gentle Monster",
+          "candidate": "Marie Kreutzer",
+          "rank": 54,
+          "pct": 0.0
+        },
+        {
+          "film": "Glenrothan",
+          "candidate": "Brian Cox",
+          "rank": 55,
+          "pct": 0.0
+        },
+        {
+          "film": "Her Private Hell",
+          "candidate": "Nicolas Winding Refn",
+          "rank": 56,
+          "pct": 0.0
+        },
+        {
+          "film": "In the Hand of Dante",
+          "candidate": "Julian Schnabel",
+          "rank": 57,
+          "pct": 0.0
+        },
+        {
+          "film": "I Swear",
+          "candidate": "Kirk Jones",
+          "rank": 58,
+          "pct": 0.0
+        },
+        {
+          "film": "Late Fame",
+          "candidate": "Kent Jones",
+          "rank": 59,
+          "pct": 0.0
+        },
+        {
+          "film": "Never After Dark",
+          "candidate": "Dave Boyle",
+          "rank": 60,
+          "pct": 0.0
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "Noah Segan",
+          "rank": 61,
+          "pct": 0.0
+        },
+        {
+          "film": "A Talent for Murder",
+          "candidate": "Anton Corbijn",
+          "rank": 62,
+          "pct": 0.0
+        },
+        {
+          "film": "Tony",
+          "candidate": "Matt Johnson",
+          "rank": 63,
+          "pct": 0.0
+        },
+        {
+          "film": "The Unknown",
+          "candidate": "Arthur Harari",
+          "rank": 64,
+          "pct": 0.0
+        },
+        {
+          "film": "Verity",
+          "candidate": "Michael Showalter",
+          "rank": 65,
+          "pct": 0.0
+        },
+        {
+          "film": "The Weight",
+          "candidate": "Padraic McKinley",
+          "rank": 66,
+          "pct": 0.0
+        },
+        {
+          "film": "The Wizard of the Kremlin",
+          "candidate": "Olivier Assayas",
+          "rank": 67,
+          "pct": 0.0
+        },
+        {
+          "film": "Harmonia",
+          "candidate": "Guy Nattiv",
+          "rank": 68,
+          "pct": 0.0
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Mike Leigh",
+          "rank": 69,
+          "pct": 0.0
+        },
+        {
+          "film": "Bedford Park",
+          "candidate": "Stephanie Ahn",
+          "rank": 70,
+          "pct": 0.0
+        },
+        {
+          "film": "Ha-Chan, Shake Your Booty!",
+          "candidate": "Josef Kubota Wladyka",
+          "rank": 71,
+          "pct": 0.0
         }
       ],
       "Best Actress": [
@@ -2963,402 +3359,6 @@
           "candidate": "Cristian Mungiu",
           "rank": 5,
           "pct": 53.12
-        },
-        {
-          "film": "Dune: Part Three",
-          "candidate": "Denis Villeneuve",
-          "rank": 6,
-          "pct": 33.43
-        },
-        {
-          "film": "Project Hail Mary",
-          "candidate": "Phil Lord, Christopher Miller",
-          "rank": 7,
-          "pct": 22.76
-        },
-        {
-          "film": "The Invite",
-          "candidate": "Olivia Wilde",
-          "rank": 8,
-          "pct": 18.71
-        },
-        {
-          "film": "Behemoth!",
-          "candidate": "Tony Gilroy",
-          "rank": 9,
-          "pct": 13.15
-        },
-        {
-          "film": "All of a Sudden",
-          "candidate": "Ryusuke Hamaguchi",
-          "rank": 10,
-          "pct": 8.56
-        },
-        {
-          "film": "Obsession",
-          "candidate": "Curry Barker",
-          "rank": 11,
-          "pct": 6.84
-        },
-        {
-          "film": "Fatherland",
-          "candidate": "Pawel Pawlikowski",
-          "rank": 12,
-          "pct": 2.85
-        },
-        {
-          "film": "Disclosure Day",
-          "candidate": "Steven Spielberg",
-          "rank": 13,
-          "pct": 1.65
-        },
-        {
-          "film": "The Debut",
-          "candidate": "Jesse Eisenberg",
-          "rank": 14,
-          "pct": 1.28
-        },
-        {
-          "film": "Josephine",
-          "candidate": "Beth de Araújo",
-          "rank": 15,
-          "pct": 1.2
-        },
-        {
-          "film": "Backrooms",
-          "candidate": "Kane Parsons",
-          "rank": 16,
-          "pct": 1.05
-        },
-        {
-          "film": "The Adventures of Cliff Booth",
-          "candidate": "David Fincher",
-          "rank": 17,
-          "pct": 0.98
-        },
-        {
-          "film": "Artificial",
-          "candidate": "Luca Guadagnino",
-          "rank": 18,
-          "pct": 0.75
-        },
-        {
-          "film": "A Place in Hell",
-          "candidate": "Chloe Domont",
-          "rank": 19,
-          "pct": 0.68
-        },
-        {
-          "film": "The Devil Wears Prada 2",
-          "candidate": "David Frankel",
-          "rank": 20,
-          "pct": 0.6
-        },
-        {
-          "film": "Michael",
-          "candidate": "Antoine Fuqua",
-          "rank": 21,
-          "pct": 0.53
-        },
-        {
-          "film": "Sense and Sensibility",
-          "candidate": "Georgia Oakley",
-          "rank": 22,
-          "pct": 0.53
-        },
-        {
-          "film": "Werwulf",
-          "candidate": "Robert Eggers",
-          "rank": 23,
-          "pct": 0.53
-        },
-        {
-          "film": "Being Heumann",
-          "candidate": "Sian Heder",
-          "rank": 24,
-          "pct": 0.45
-        },
-        {
-          "film": "The Social Reckoning",
-          "candidate": "Aaron Sorkin",
-          "rank": 25,
-          "pct": 0.38
-        },
-        {
-          "film": "Ink",
-          "candidate": "Danny Boyle",
-          "rank": 26,
-          "pct": 0.38
-        },
-        {
-          "film": "Primetime",
-          "candidate": "Lance Oppenheim",
-          "rank": 27,
-          "pct": 0.3
-        },
-        {
-          "film": "Teenage Sex and Death at Camp Miasma",
-          "candidate": "Jane Schoenbrun",
-          "rank": 28,
-          "pct": 0.3
-        },
-        {
-          "film": "I Play Rocky",
-          "candidate": "Peter Farrelly",
-          "rank": 29,
-          "pct": 0.23
-        },
-        {
-          "film": "Is God Is",
-          "candidate": "Aleshea Harris",
-          "rank": 30,
-          "pct": 0.23
-        },
-        {
-          "film": "Minotaur",
-          "candidate": "Andrey Zvyagintsev",
-          "rank": 31,
-          "pct": 0.23
-        },
-        {
-          "film": "Wuthering Heights",
-          "candidate": "Emerald Fennell",
-          "rank": 32,
-          "pct": 0.23
-        },
-        {
-          "film": "Club Kid",
-          "candidate": "Jordan Firstman",
-          "rank": 33,
-          "pct": 0.15
-        },
-        {
-          "film": "Coward",
-          "candidate": "Lukas Dhont",
-          "rank": 34,
-          "pct": 0.15
-        },
-        {
-          "film": "Mother Mary",
-          "candidate": "David Lowery",
-          "rank": 35,
-          "pct": 0.15
-        },
-        {
-          "film": "Paper Tiger",
-          "candidate": "James Gray",
-          "rank": 36,
-          "pct": 0.15
-        },
-        {
-          "film": "Saturn Return",
-          "candidate": "Greg Kwedar",
-          "rank": 37,
-          "pct": 0.15
-        },
-        {
-          "film": "Whalefall",
-          "candidate": "Brian Duffield",
-          "rank": 38,
-          "pct": 0.15
-        },
-        {
-          "film": "Here Comes the Flood",
-          "candidate": "Fernando Meirelles",
-          "rank": 39,
-          "pct": 0.08
-        },
-        {
-          "film": "Hope",
-          "candidate": "Na Hong-jin",
-          "rank": 40,
-          "pct": 0.08
-        },
-        {
-          "film": "I Love Boosters",
-          "candidate": "Boots Riley",
-          "rank": 41,
-          "pct": 0.08
-        },
-        {
-          "film": "Klara and the Sun",
-          "candidate": "Taika Waititi",
-          "rank": 42,
-          "pct": 0.08
-        },
-        {
-          "film": "Madden",
-          "candidate": "David O. Russell",
-          "rank": 43,
-          "pct": 0.08
-        },
-        {
-          "film": "Pressure",
-          "candidate": "Anthony Maras",
-          "rank": 44,
-          "pct": 0.08
-        },
-        {
-          "film": "Tuner",
-          "candidate": "Daniel Roher",
-          "rank": 45,
-          "pct": 0.08
-        },
-        {
-          "film": "The Uprising",
-          "candidate": "Paul Greengrass",
-          "rank": 46,
-          "pct": 0.08
-        },
-        {
-          "film": "Wicker",
-          "candidate": "Alex Huston Fischer, Eleanor Wilson",
-          "rank": 47,
-          "pct": 0.08
-        },
-        {
-          "film": "Poetic License",
-          "candidate": "Maude Apatow",
-          "rank": 48,
-          "pct": 0.08
-        },
-        {
-          "film": "Bitter Christmas",
-          "candidate": "Pedro Almodovar",
-          "rank": 49,
-          "pct": 0.0
-        },
-        {
-          "film": "The Christophers",
-          "candidate": "Steven Soderbergh",
-          "rank": 50,
-          "pct": 0.0
-        },
-        {
-          "film": "Clarissa",
-          "candidate": "Arie Esiri, Chuko Esiri",
-          "rank": 51,
-          "pct": 0.0
-        },
-        {
-          "film": "Couture",
-          "candidate": "Alice Winocour",
-          "rank": 52,
-          "pct": 0.0
-        },
-        {
-          "film": "The Dog Stars",
-          "candidate": "Ridley Scott",
-          "rank": 53,
-          "pct": 0.0
-        },
-        {
-          "film": "Gentle Monster",
-          "candidate": "Marie Kreutzer",
-          "rank": 54,
-          "pct": 0.0
-        },
-        {
-          "film": "Glenrothan",
-          "candidate": "Brian Cox",
-          "rank": 55,
-          "pct": 0.0
-        },
-        {
-          "film": "Her Private Hell",
-          "candidate": "Nicolas Winding Refn",
-          "rank": 56,
-          "pct": 0.0
-        },
-        {
-          "film": "In the Hand of Dante",
-          "candidate": "Julian Schnabel",
-          "rank": 57,
-          "pct": 0.0
-        },
-        {
-          "film": "I Swear",
-          "candidate": "Kirk Jones",
-          "rank": 58,
-          "pct": 0.0
-        },
-        {
-          "film": "Late Fame",
-          "candidate": "Kent Jones",
-          "rank": 59,
-          "pct": 0.0
-        },
-        {
-          "film": "Never After Dark",
-          "candidate": "Dave Boyle",
-          "rank": 60,
-          "pct": 0.0
-        },
-        {
-          "film": "The Only Living Pickpocket in New York",
-          "candidate": "Noah Segan",
-          "rank": 61,
-          "pct": 0.0
-        },
-        {
-          "film": "A Talent for Murder",
-          "candidate": "Anton Corbijn",
-          "rank": 62,
-          "pct": 0.0
-        },
-        {
-          "film": "Tony",
-          "candidate": "Matt Johnson",
-          "rank": 63,
-          "pct": 0.0
-        },
-        {
-          "film": "The Unknown",
-          "candidate": "Arthur Harari",
-          "rank": 64,
-          "pct": 0.0
-        },
-        {
-          "film": "Verity",
-          "candidate": "Michael Showalter",
-          "rank": 65,
-          "pct": 0.0
-        },
-        {
-          "film": "The Weight",
-          "candidate": "Padraic McKinley",
-          "rank": 66,
-          "pct": 0.0
-        },
-        {
-          "film": "The Wizard of the Kremlin",
-          "candidate": "Olivier Assayas",
-          "rank": 67,
-          "pct": 0.0
-        },
-        {
-          "film": "Harmonia",
-          "candidate": "Guy Nattiv",
-          "rank": 68,
-          "pct": 0.0
-        },
-        {
-          "film": "Tender Loving Care",
-          "candidate": "Mike Leigh",
-          "rank": 69,
-          "pct": 0.0
-        },
-        {
-          "film": "Bedford Park",
-          "candidate": "Stephanie Ahn",
-          "rank": 70,
-          "pct": 0.0
-        },
-        {
-          "film": "Ha-Chan, Shake Your Booty!",
-          "candidate": "Josef Kubota Wladyka",
-          "rank": 71,
-          "pct": 0.0
         }
       ],
       "Best Actress": [
