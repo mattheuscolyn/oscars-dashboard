@@ -61,7 +61,16 @@ Use `python scrape.py --force` to overwrite today’s snapshot. Use `--headed` t
 | `scrape.yml` | Daily 12:00 UTC (+ manual) | Scrape → update `data/` → push |
 | `pages.yml` | On push to `main` | Aggregate → build Vite app → GitHub Pages |
 
-Enable **Settings → Pages → Source: GitHub Actions** after the first push.
+Enable **Settings → Pages → Source: GitHub Actions** after the workflow files are on `main`.
+
+If `git push` rejects `.github/workflows/*` with a `workflow` scope error, grant the scope and push:
+
+```bash
+gh auth refresh -h github.com -s repo,workflow
+git push
+```
+
+Then open **Actions**, run **Deploy GitHub Pages** once, and (if needed) set Pages source to GitHub Actions.
 
 ## Repo layout
 
