@@ -52,8 +52,8 @@ export function WatchPriority({ latest, source, onSourceChange }: Props) {
           {(
             [
               ['all', 'All'],
-              ['has', 'Has release data'],
-              ['missing', 'Missing data'],
+              ['has', 'Has dates'],
+              ['missing', 'Missing'],
             ] as const
           ).map(([id, label]) => (
             <button
@@ -68,7 +68,41 @@ export function WatchPriority({ latest, source, onSourceChange }: Props) {
         </div>
       </div>
 
-      <div className="table-wrap">
+      {/* Mobile card list */}
+      <ul className="mobile-cards">
+        {rows.map((row, i) => (
+          <li
+            key={row.film}
+            className={`mobile-card ${!row.has_metadata ? 'missing' : ''}`}
+          >
+            <span className="mobile-rank">{i + 1}</span>
+            <PosterThumb url={row.poster_url} alt={row.film} size="md" />
+            <div className="mobile-card-body">
+              <div className="mobile-title">{row.film}</div>
+              <div className="mobile-stats">
+                <strong>{formatPct(row.p_at_least_one)}</strong>
+                <span>≥1 nom</span>
+                <span className="dot">·</span>
+                <span>~{formatExpected(row.expected_noms)} exp.</span>
+              </div>
+              <div className="mobile-cats">
+                {row.categories.slice(0, 2).map((c) => (
+                  <span key={c.category} className="cat-chip">
+                    {c.category.replace(/^Best\s+/, '')} {formatPct(c.pct, 0)}
+                  </span>
+                ))}
+              </div>
+              <div className="mobile-release">{releaseLabel(row)}</div>
+            </div>
+          </li>
+        ))}
+        {rows.length === 0 && (
+          <li className="empty">No films match these filters.</li>
+        )}
+      </ul>
+
+      {/* Desktop table */}
+      <div className="table-wrap desktop-only">
         <table className="data-table">
           <thead>
             <tr>

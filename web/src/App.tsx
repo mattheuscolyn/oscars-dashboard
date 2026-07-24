@@ -9,11 +9,11 @@ import './App.css'
 
 type Tab = 'watch' | 'momentum' | 'category' | 'releases'
 
-const TABS: { id: Tab; label: string }[] = [
-  { id: 'watch', label: 'Watch priority' },
-  { id: 'momentum', label: 'Momentum' },
-  { id: 'category', label: 'By category' },
-  { id: 'releases', label: 'Releases' },
+const TABS: { id: Tab; label: string; short: string }[] = [
+  { id: 'watch', label: 'Watch priority', short: 'Watch' },
+  { id: 'momentum', label: 'Momentum', short: 'Momentum' },
+  { id: 'category', label: 'By category', short: 'Category' },
+  { id: 'releases', label: 'Releases', short: 'Releases' },
 ]
 
 export default function App() {
@@ -63,7 +63,8 @@ export default function App() {
             className={tab === t.id ? 'active' : ''}
             onClick={() => setTab(t.id)}
           >
-            {t.label}
+            <span className="tab-full">{t.label}</span>
+            <span className="tab-short">{t.short}</span>
           </button>
         ))}
       </nav>
@@ -101,7 +102,9 @@ export default function App() {
                 onSourceChange={setSource}
               />
             )}
-            {tab === 'releases' && <Releases latest={latest} />}
+            {tab === 'releases' && (
+              <Releases latest={latest} source={source} />
+            )}
           </>
         )}
       </main>

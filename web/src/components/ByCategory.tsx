@@ -13,6 +13,7 @@ import type { HistoryData, LatestData, SourceKey } from '../types'
 import { formatPct, posterIndex } from '../utils'
 import { PosterThumb } from './PosterThumb'
 import { SourceToggle } from './SourceToggle'
+import { useIsMobile } from '../useIsMobile'
 
 const PALETTE = [
   '#8b6914',
@@ -33,6 +34,8 @@ interface Props {
 }
 
 export function ByCategory({ latest, history, source, onSourceChange }: Props) {
+  const isMobile = useIsMobile()
+  const chartHeight = isMobile ? 220 : 360
   const categories = useMemo(() => {
     return Object.keys(latest.categories[source] || {}).sort()
   }, [latest, source])
@@ -130,8 +133,8 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
         </label>
       </div>
 
-      <div className="film-picks">
-        {standings.slice(0, 16).map((row) => {
+      <div className="film-picks film-picks-scroll">
+        {standings.slice(0, isMobile ? 10 : 16).map((row) => {
           const key = seriesKey(row.candidate, row.film)
           const label =
             row.candidate === row.film
@@ -157,10 +160,15 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
             appears.
           </p>
         ) : (
-          <ResponsiveContainer width="100%" height={360}>
+          <ResponsiveContainer width="100%" height={chartHeight}>
             <LineChart
               data={chartData}
-              margin={{ top: 8, right: 16, left: 0, bottom: 0 }}
+              margin={{
+                top: 8,
+                right: isMobile ? 4 : 16,
+                left: 0,
+                bottom: 0,
+              }}
             >
               <CartesianGrid
                 stroke="rgba(44,58,74,0.12)"
@@ -168,14 +176,16 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
               />
               <XAxis
                 dataKey="date"
-                tick={{ fill: '#2c3a4a', fontSize: 11 }}
+                tick={{ fill: '#2c3a4a', fontSize: isMobile ? 10 : 11 }}
                 tickMargin={8}
+                interval="preserveStartEnd"
+                minTickGap={isMobile ? 28 : 16}
               />
               <YAxis
                 domain={[0, 100]}
-                tick={{ fill: '#2c3a4a', fontSize: 11 }}
+                tick={{ fill: '#2c3a4a', fontSize: isMobile ? 10 : 11 }}
                 tickFormatter={(v) => `${v}%`}
-                width={42}
+                width={isMobile ? 34 : 42}
               />
               <Tooltip
                 formatter={(value) =>
@@ -185,9 +195,10 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
                   background: '#f7f1e6',
                   border: '1px solid #c4b59a',
                   borderRadius: 0,
+                  fontSize: 12,
                 }}
               />
-              <Legend />
+              {!isMobile && <Legend />}
               {effectiveSelected.map((key, i) => (
                 <Line
                   key={key}
@@ -204,7 +215,29 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
         )}
       </div>
 
-      <div className="table-wrap">
+      <ul className="mobile-cards">
+        {standings.map((row) => (
+          <li key={`${row.rank}-${row.candidate}-${row.film}`} className="mobile-card">
+            <span className="mobile-rank">{row.rank}</span>
+            <PosterThumb url={posters[row.film]} alt={row.film} size="md" />
+            <div className="mobile-card-body">
+              <div className="mobile-title">{row.candidate}</div>
+              {row.candidate !== row.film && (
+                <div className="mobile-sub">{row.film}</div>
+              )}
+              <div className="mobile-stats">
+                <strong>{formatPct(row.pct)}</strong>
+                <span>odds</span>
+              </div>
+            </div>
+          </li>
+        ))}
+        {standings.length === 0 && (
+          <li className="empty">No standings for this category yet.</li>
+        )}
+      </ul>
+
+      <div className="table-wrap desktop-only">
         <table className="data-table">
           <thead>
             <tr>
@@ -217,8 +250,14 @@ export function ByCategory({ latest, history, source, onSourceChange }: Props) {
           </thead>
           <tbody>
             {standings.map((row) => {
+              const historyId =
+                row.candidate === row.film
+                  ? row.film
+                  : `${row.candidate} || ${row.film}`
               const series =
-                history.category[source]?.[activeCategory]?.[row.film] || []
+                history.category[source]?.[activeCategory]?.[historyId] ||
+                history.category[source]?.[activeCategory]?.[row.film] ||
+                []
               const spark = series
                 .filter(
                   (p) =>

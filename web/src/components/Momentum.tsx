@@ -12,6 +12,7 @@ import {
 import type { HistoryData, LatestData, SourceKey } from '../types'
 import { alwaysTopN, formatPct, risersFallers } from '../utils'
 import { SourceToggle } from './SourceToggle'
+import { useIsMobile } from '../useIsMobile'
 
 const PALETTE = [
   '#8b6914',
@@ -32,6 +33,8 @@ interface Props {
 }
 
 export function Momentum({ latest, history, source, onSourceChange }: Props) {
+  const isMobile = useIsMobile()
+  const chartHeight = isMobile ? 220 : 360
   const topFilms = (latest.watch_priority[source] || []).slice(0, 8).map((r) => r.film)
   const [selected, setSelected] = useState<string[]>(topFilms)
   const [windowDays, setWindowDays] = useState<number | 'all'>(30)
@@ -88,8 +91,8 @@ export function Momentum({ latest, history, source, onSourceChange }: Props) {
         <SourceToggle value={source} onChange={onSourceChange} />
       </header>
 
-      <div className="film-picks">
-        {allFilms.slice(0, 20).map((film) => (
+      <div className="film-picks film-picks-scroll">
+        {allFilms.slice(0, isMobile ? 12 : 20).map((film) => (
           <button
             key={film}
             type="button"
@@ -108,19 +111,29 @@ export function Momentum({ latest, history, source, onSourceChange }: Props) {
             back after the next scheduled run.
           </p>
         ) : (
-          <ResponsiveContainer width="100%" height={360}>
-            <LineChart data={chartData} margin={{ top: 8, right: 16, left: 0, bottom: 0 }}>
+          <ResponsiveContainer width="100%" height={chartHeight}>
+            <LineChart
+              data={chartData}
+              margin={{
+                top: 8,
+                right: isMobile ? 4 : 16,
+                left: 0,
+                bottom: 0,
+              }}
+            >
               <CartesianGrid stroke="rgba(44,58,74,0.12)" strokeDasharray="3 6" />
               <XAxis
                 dataKey="date"
-                tick={{ fill: '#2c3a4a', fontSize: 11 }}
+                tick={{ fill: '#2c3a4a', fontSize: isMobile ? 10 : 11 }}
                 tickMargin={8}
+                interval="preserveStartEnd"
+                minTickGap={isMobile ? 28 : 16}
               />
               <YAxis
                 domain={[0, 100]}
-                tick={{ fill: '#2c3a4a', fontSize: 11 }}
+                tick={{ fill: '#2c3a4a', fontSize: isMobile ? 10 : 11 }}
                 tickFormatter={(v) => `${v}%`}
-                width={42}
+                width={isMobile ? 34 : 42}
               />
               <Tooltip
                 formatter={(value) =>
@@ -130,9 +143,10 @@ export function Momentum({ latest, history, source, onSourceChange }: Props) {
                   background: '#f7f1e6',
                   border: '1px solid #c4b59a',
                   borderRadius: 0,
+                  fontSize: 12,
                 }}
               />
-              <Legend />
+              {!isMobile && <Legend />}
               {effectiveSelected.map((film, i) => (
                 <Line
                   key={film}
