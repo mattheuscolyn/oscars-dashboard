@@ -8,23 +8,111 @@ export function formatExpected(n: number): string {
   return n.toFixed(2)
 }
 
-export function releaseLabel(row: Pick<WatchRow, 'premiere_date' | 'theatrical_date' | 'theatrical_type' | 'streaming_date' | 'streaming_platform' | 'certification' | 'has_metadata'>): string {
+/** ISO YYYY-MM-DD → "Nov 6, 2026" (UTC, no timezone shift). */
+export function formatReleaseDate(iso: string): string {
+  const m = /^(\d{4})-(\d{2})-(\d{2})/.exec(iso.trim())
+  if (!m) return iso
+  const months = [
+    'Jan',
+    'Feb',
+    'Mar',
+    'Apr',
+    'May',
+    'Jun',
+    'Jul',
+    'Aug',
+    'Sep',
+    'Oct',
+    'Nov',
+    'Dec',
+  ]
+  const year = m[1]
+  const month = months[Number(m[2]) - 1]
+  const day = String(Number(m[3]))
+  if (!month) return iso
+  return `${month} ${day}, ${year}`
+}
+
+function theatricalPhrase(type: string): string {
+  const t = type.trim().toLowerCase()
+  if (t === 'wide') return 'Wide release'
+  if (t === 'limited') return 'Limited release'
+  if (t === 'tba') return 'Theatrical TBA'
+  if (t) return `${type} release`
+  return 'In theaters'
+}
+
+/** Compact one-line summary for tables / cards. */
+export function releaseLabel(
+  row: Pick<
+    WatchRow,
+    | 'premiere_date'
+    | 'theatrical_date'
+    | 'theatrical_type'
+    | 'streaming_date'
+    | 'streaming_platform'
+    | 'certification'
+    | 'has_metadata'
+  >,
+): string {
   if (!row.has_metadata) return 'Missing metadata'
   const parts: string[] = []
+
   if (row.theatrical_date) {
-    const type = row.theatrical_type ? ` (${row.theatrical_type})` : ''
-    const cert = row.certification ? ` ${row.certification}` : ''
-    parts.push(`Theaters ${row.theatrical_date}${type}${cert}`)
+    parts.push(
+      `${formatReleaseDate(row.theatrical_date)} · ${theatricalPhrase(row.theatrical_type)}`,
+    )
+  } else if (row.premiere_date) {
+    parts.push(`${formatReleaseDate(row.premiere_date)} · Premiere`)
   }
+
   if (row.streaming_date) {
-    const plat = row.streaming_platform ? ` · ${row.streaming_platform}` : ''
-    parts.push(`Digital ${row.streaming_date}${plat}`)
+    const when = formatReleaseDate(row.streaming_date)
+    const plat = row.streaming_platform?.trim()
+    parts.push(plat ? `${when} · ${plat}` : `${when} · Digital`)
   }
-  if (row.premiere_date && !row.theatrical_date) {
-    parts.push(`Premiere ${row.premiere_date}`)
+
+  if (row.certification?.trim()) {
+    parts.push(`Rated ${row.certification.trim()}`)
   }
+
   if (!parts.length) return 'Dates TBA'
   return parts.join(' · ')
+}
+
+/** Structured lines for the release calendar. */
+export function releaseDetailLines(
+  row: Pick<
+    WatchRow,
+    | 'premiere_date'
+    | 'theatrical_date'
+    | 'theatrical_type'
+    | 'streaming_date'
+    | 'streaming_platform'
+    | 'certification'
+  >,
+): string[] {
+  const lines: string[] = []
+  if (row.premiere_date) {
+    lines.push(`Premiere · ${formatReleaseDate(row.premiere_date)}`)
+  }
+  if (row.theatrical_date) {
+    lines.push(
+      `${theatricalPhrase(row.theatrical_type)} · ${formatReleaseDate(row.theatrical_date)}`,
+    )
+  }
+  if (row.streaming_date) {
+    const plat = row.streaming_platform?.trim()
+    lines.push(
+      plat
+        ? `${plat} · ${formatReleaseDate(row.streaming_date)}`
+        : `Digital · ${formatReleaseDate(row.streaming_date)}`,
+    )
+  }
+  if (row.certification?.trim()) {
+    lines.push(`Rated ${row.certification.trim()}`)
+  }
+  return lines
 }
 
 export function deltaOverWindow(

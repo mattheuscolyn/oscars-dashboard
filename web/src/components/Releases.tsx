@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react'
 import type { LatestData, SourceKey } from '../types'
-import { csvStub, formatExpected, formatPct } from '../utils'
+import { csvStub, formatExpected, formatPct, releaseDetailLines } from '../utils'
 import { PosterThumb } from './PosterThumb'
 
 interface Props {
@@ -159,9 +159,6 @@ export function Releases({ latest, source }: Props) {
                       <div className="release-main">
                         <div className="release-title-row">
                           <span className="release-title">{f.film}</span>
-                          {f.certification ? (
-                            <span className="cert">{f.certification}</span>
-                          ) : null}
                         </div>
                         <div className="odds-line">
                           <span className="odds-p">{formatPct(f.p, 0)} ≥1 nom</span>
@@ -173,23 +170,9 @@ export function Releases({ latest, source }: Props) {
                           )}
                         </div>
                         <div className="meta">
-                          {f.premiere_date && (
-                            <span>Premiere {f.premiere_date}</span>
-                          )}
-                          {f.theatrical_date && (
-                            <span>
-                              Theaters {f.theatrical_date}
-                              {f.theatrical_type ? ` · ${f.theatrical_type}` : ''}
-                            </span>
-                          )}
-                          {f.streaming_date && (
-                            <span>
-                              Digital {f.streaming_date}
-                              {f.streaming_platform
-                                ? ` · ${f.streaming_platform}`
-                                : ''}
-                            </span>
-                          )}
+                          {releaseDetailLines(f).map((line) => (
+                            <span key={line}>{line}</span>
+                          ))}
                         </div>
                       </div>
                     </div>
