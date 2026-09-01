@@ -1,7 +1,7 @@
 film,tmdb_id,poster_path,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source
 A Place in Hell,1437882,/4gSgzVw59vhegejEh1yMMfStXsU.jpg,R,,2026-12-25,wide,,,,tmdb
 A Talent for Murder,1084409,/9NyudoVzIHqVD5p5l9Zrn0iaoba.jpg,R,,2026-10-23,wide,,,,tmdb
-All of a Sudden,1476614,/bjKbSnsDlDdi3E2Ln6Aq80s8Pwl.jpg,,2026-10-01,2026-11-25,limited,,,Premiere: New York Film Festival,tmdb
+All of a Sudden,1476614,/bjKbSnsDlDdi3E2Ln6Aq80s8Pwl.jpg,PG-13,2026-10-01,2026-11-25,limited,,,Premiere: New York Film Festival,tmdb
 Artificial,1586108,/pxPmvPaOp1c9XXnsM52a96dlKhB.jpg,,,,,,,,tmdb
 Backrooms,1083381,/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg,R,2026-05-07,2026-05-29,wide,2026-07-14,,"Premiere: Aero Theatre (Santa Monica, California)",tmdb
 Bedford Park,1470198,/afH14yQ0xwyalCy3AyZrhQpRZyB.jpg,R,2026-01-24,2026-09-22,limited,,,Premiere: Sundance Film Festival,tmdb
@@ -29,7 +29,7 @@ Her Private Hell,1469342,/kiFacg75KVjy0AM3S4QmbPas8zL.jpg,R,,2026-07-24,wide,202
 Here Comes the Flood,701244,/tvCslSGrnAIqO9qlxX5PNaoX03s.jpg,,,,,,,,tmdb
 Hope,1058424,/1n37BJchWHLiSYQkuFxe5KjB951.jpg,R,2026-07-20,2026-09-07,limited,,,Premiere: New York Asian Film Festival; Also wide 2026-09-09,tmdb
 I Love Boosters,1227877,/4pNKIUFy7tkZiBx0rnSmG9ysRy.jpg,R,2026-03-12,2026-05-22,wide,2026-06-23,,Premiere: South by Southwest Film & TV Festival,tmdb
-I Play Rocky,1286656,/gYnp0VAzcScVfTn4wLGa8nlrgeb.jpg,,,2026-11-13,limited,,,Also wide 2026-11-20,tmdb
+I Play Rocky,1286656,/gYnp0VAzcScVfTn4wLGa8nlrgeb.jpg,PG-13,,2026-11-13,limited,,,Also wide 2026-11-20,tmdb
 I Swear,1317149,/vUwyhNWBKkSwK8ELvEeBRwV724h.jpg,R,2026-01-06,2026-04-24,wide,2026-06-02,,Premiere: Palm Springs International Film Festival,tmdb
 In the Hand of Dante,1020047,/nPPIufTBnzEg0d7NoR5RLL1oPra.jpg,R,2026-06-10,2026-06-12,limited,2026-06-24,Netflix,Premiere: Tribeca Festival,tmdb
 Ink,1706744,/5N5c3UMns2vZIWpiPcgpv3GTKKB.jpg,,,,,,,,tmdb
