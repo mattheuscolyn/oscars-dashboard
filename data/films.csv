@@ -1,4 +1,5 @@
 film,tmdb_id,poster_path,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source
+A Long Winter,1534221,/dHeu7wMp9A5BuSJZvOi7gKBMilv.jpg,,2026-09-04,,,,,Premiere: Telluride Film Festival,tmdb
 A Place in Hell,1437882,/4gSgzVw59vhegejEh1yMMfStXsU.jpg,R,,2026-12-25,wide,,,,tmdb
 A Talent for Murder,1084409,/9NyudoVzIHqVD5p5l9Zrn0iaoba.jpg,R,2026-09-27,2026-10-23,wide,,,Premiere: Nashville Film Festival,tmdb
 All of a Sudden,1476614,/bjKbSnsDlDdi3E2Ln6Aq80s8Pwl.jpg,PG-13,2026-10-01,2026-11-25,limited,,,Premiere: New York Film Festival,tmdb
@@ -15,7 +16,7 @@ Bunker,1725917,/ypmLUbXlDRUV4hLti4zPOkvPRb2.jpg,,,,,,,,tmdb
 Clarissa,1630464,/9qS8heXhQdLoyGsqZHHb3HkrK62.jpg,,2026-10-04,2026-12-11,limited,,,Premiere: New York Film Festival,tmdb
 Club Kid,1585239,/6vAp5qyxvgh1g937AqXi30Rt9UE.jpg,R,2026-09-04,2026-11-06,limited,,,Premiere: Telluride Film Festival,tmdb
 Couture,1390382,/pie2ouNdXYKEMXtF2Kvj0H4LzOr.jpg,,,,,,,,tmdb
-Coward,1437981,/dEi27lMyBkUQSUO366DMg0lN8JS.jpg,,,2026-12-25,limited,,,,tmdb
+Coward,1437981,/dEi27lMyBkUQSUO366DMg0lN8JS.jpg,,2026-10-04,2026-12-25,limited,,,Premiere: Mill Valley Film Festival / Hamptons International Film Festival,tmdb
 Digger,1248832,/1ATXKrIPJyKNwnJ6lcG088Sa6zi.jpg,R,,2026-10-02,wide,,,,tmdb
 Disclosure Day,1275779,/AnJ8IQJI23hNpYXVNaythu061Ru.jpg,PG-13,,2026-06-12,wide,2026-07-21,,,tmdb
 Dune: Part Three,1170608,/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg,PG-13,,2026-12-18,wide,,,,tmdb
@@ -44,9 +45,10 @@ Is God Is,1380316,/rCYQGHdoz7qwYsb6wXETJfUfDLX.jpg,R,2026-04-27,2026-05-15,wide,
 Josephine,1299329,/eqMWdviWwaRahQ7QkHLpXCpqIfu.jpg,R,2026-01-23,2026-11-20,limited,,,Premiere: Sundance Film Festival; Also wide 2026-12-04,tmdb
 Klara and the Sun,858035,/xqovj2p6HRsgHxN81qYAYF4StgM.jpg,PG-13,,2026-10-23,wide,,,,tmdb
 La Bola Negra,1422041,/iKv3KYVmLtfSyFvynYLyJWjIru3.jpg,R,2026-09-05,2026-10-16,limited,2026-12-02,Netflix,Premiere: Telluride Film Festival,tmdb
-Late Fame,1285895,/bcyXE0p4XmZUlcxvTDbvdG9lgsN.jpg,,2025-09-28,2026-08-07,limited,,,Premiere: New York Film Festival,tmdb
+Late Fame,1285895,/bcyXE0p4XmZUlcxvTDbvdG9lgsN.jpg,,2025-09-28,2026-08-07,limited,2026-10-06,,Premiere: New York Film Festival,tmdb
 Madden,1131943,/ivqI1eJaY6SwyEqqfEgb4BUB6et.jpg,R,,,,2026-11-18,Prime Video,,tmdb
 Michael,936075,/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg,PG-13,2026-04-20,2026-04-24,wide,2026-06-09,,Premiere: TCL Chinese Theatre,tmdb
+Minions and Monsters,1315772,/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg,PG,,2026-07-01,wide,2026-08-11,,,tmdb
 Minotaur,848700,/wcxM1Pc8StmtMVTlkk1d62x0VPl.jpg,,2026-09-04,2026-11-20,limited,,,Premiere: Telluride Film Festival,tmdb
 Misty Green,1381221,/qOFIOfZzteCoiOFjXDvqTgBnUTz.jpg,R,2026-09-26,2026-10-09,limited,,,Premiere: New York Film Festival,tmdb
 Mother Mary,1102883,/uVcsN3yoHh7ZcJ6ecj1FJfv7dLa.jpg,R,,2026-04-17,wide,2026-05-19,,,tmdb
@@ -62,10 +64,12 @@ Project Hail Mary,687163,/yihdXomYb5kTeSivtFndMy5iDmf.jpg,PG-13,,2026-03-20,wide
 Rose,1176962,/sNie7BSBbckJiJWDXr0GN4QenBs.jpg,,2026-09-05,2026-12-11,wide,,,Premiere: Telluride Film Festival,tmdb
 Saturn Return,977548,/4NtkEJNctcf2MztNBA6RX4RS9Iw.jpg,,2024-05-11,2024-12-06,limited,,,Premiere: Seattle International Film Festival,tmdb
 Sense and Sensibility,1503762,/sYzWktm1YwJydX92fbSOWHJs33m.jpg,PG,,2026-10-16,wide,,,,tmdb
+Shaun the Sheep: The Beast of Mossy Bottom,1477104,/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg,PG,,2026-09-18,wide,,,,tmdb
 Spider-Man: Brand New Day,969681,/iPOn6DinuVyLY17YM9mKuPofV08.jpg,PG-13,2026-07-27,2026-07-31,wide,2026-09-29,,"Premiere: Los Angeles, California; Also limited 2026-08-06",tmdb
 Tangles,1316999,/uYPnma0qO28Sk6OtkU3H6f5ySex.jpg,,,,,,,,tmdb
 Teenage Sex and Death at Camp Miasma,1240889,/nLsFnXifieSTqSeWxjXSS8RvaUZ.jpg,R,2026-06-01,2026-08-07,limited,,,Premiere: NewFest Pride; Also wide 2026-08-21,tmdb
 Tender Loving Care,1370191,/iPwhnonUlzcHKLvqJyqvtBNUZRF.jpg,R,2026-09-04,2026-12-04,limited,,,Premiere: Telluride Film Festival,tmdb
+Tenzing,1288069,/dX60ICPem0yTmAsxCwtzCsorYPC.jpg,PG,2026-09-05,2026-10-09,limited,2026-10-15,Apple TV,Premiere: Telluride Film Festival,tmdb
 The Adventures of Cliff Booth,1457866,/qudwprZ9CGn9vay0boXcyrEEUQr.jpg,,,2026-11-26,limited,2026-12-23,Netflix,,tmdb
 The Amazing Digital Circus: The Last Act,1667198,/uoZeXWuUS2z2F7VaC1iS5RS5cnk.jpg,NR,,2026-06-04,limited,,,,tmdb
 The Angry Birds Movie 3,1300926,/oxaW6X3xohnzdFSBKCrCjRDckMe.jpg,,,2026-12-23,wide,,,,tmdb
@@ -84,7 +88,7 @@ The Only Living Pickpocket in New York,1458099,/otJsgLxFhsa43dTknU9NqxdkdP4.jpg,
 The Sheep Detectives,1301421,/mGWOmj2jHFol3kOGNv1EhbSDDE1.jpg,PG,2026-04-19,2026-05-08,wide,2026-06-24,Prime Video,"Premiere: New York City, New York",tmdb
 The Social Reckoning,1281331,/blm3cRs7avmaHWtPqk6fzj3VIKF.jpg,,,2026-10-09,wide,,,,tmdb
 The Unknown,1182935,/888ksoUkfKSBJHxKp6M9sYpJhv2.jpg,,2026-09-04,,,,,Premiere: Telluride Film Festival,tmdb
-The Uprising,977942,/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg,R,2026-09-02,2026-09-10,wide,,,,tmdb
+The Uprising,977942,/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg,R,,2026-09-10,wide,,,,tmdb
 The Weight,1433583,/bsrd6ItRwNrg3DGlUDYrEy1S9C1.jpg,R,2026-01-26,2026-09-18,wide,,,Premiere: Sundance Film Festival,tmdb
 The Wizard of the Kremlin,1291659,/85EYON4oXVYTPdMuW5q5ELQLU88.jpg,R,2026-03-07,2026-05-15,wide,,,Premiere: Rendez-Vous with French Cinema,tmdb
 Tony,1329016,/z39nccQLIc9LnhJOusvN03KvMpb.jpg,R,,2026-08-07,limited,,,Also wide 2026-08-21,tmdb
@@ -97,5 +101,5 @@ Wicker,1195803,/fnPQ6fsQ4VHJrgu3ATd8s13wezj.jpg,R,2026-01-24,2026-10-23,limited,
 Wild Horse Nine,891621,/dNJFRtVg3xLQ7dbNIQ55cmmIniD.jpg,R,2026-09-04,2026-11-06,wide,,,Premiere: Telluride Film Festival,tmdb
 Wildwood,791523,/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg,PG-13,,2026-10-23,wide,,,,tmdb
 Wuthering Heights,1316092,/3YBce6dTh1D5oCMITXk2S5QhPt.jpg,R,2026-01-28,2026-02-13,wide,2026-03-31,,"Premiere: Los Angeles, California",tmdb
-You Can See Everything,1765072,/qhFWz1BsEMg5rcs6TAstmGQggMT.jpg,,2026-09-06,,,,,Premiere: Telluride Film Festival,tmdb
+You Can See Everything,1765072,/qhFWz1BsEMg5rcs6TAstmGQggMT.jpg,,2026-09-06,2026-10-16,limited,,,Premiere: Telluride Film Festival,tmdb
 Your Mother Your Mother Your Mother,1437396,/4KaPZSKnInnArErTTgy9Oy14leR.jpg,R,2026-09-23,2026-09-25,limited,,,Premiere: Beyond Fest; Also wide 2026-10-09,tmdb
