@@ -1,0 +1,4046 @@
+{
+  "scraped_at": "2026-09-29T17:26:39.936542+00:00",
+  "season": "2027",
+  "sources": {
+    "users": {
+      "Best Picture": [
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 1,
+          "pct": 89.84
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 2,
+          "pct": 88.17
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 3,
+          "pct": 87.78
+        },
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 4,
+          "pct": 86.67
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 5,
+          "pct": 83.02
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Dune: Part Three",
+          "rank": 6,
+          "pct": 81.09
+        },
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 7,
+          "pct": 80.22
+        },
+        {
+          "film": "Digger",
+          "candidate": "Digger",
+          "rank": 8,
+          "pct": 52.77
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 9,
+          "pct": 52.61
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 10,
+          "pct": 47.15
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 11,
+          "pct": 39.64
+        },
+        {
+          "film": "Behemoth!",
+          "candidate": "Behemoth!",
+          "rank": 12,
+          "pct": 28.24
+        },
+        {
+          "film": "I Play Rocky",
+          "candidate": "I Play Rocky",
+          "rank": 13,
+          "pct": 19.78
+        },
+        {
+          "film": "Being Heumann",
+          "candidate": "Being Heumann",
+          "rank": 14,
+          "pct": 18.2
+        },
+        {
+          "film": "Artificial",
+          "candidate": "Artificial",
+          "rank": 15,
+          "pct": 12.9
+        },
+        {
+          "film": "Michael",
+          "candidate": "Michael",
+          "rank": 16,
+          "pct": 12.18
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Club Kid",
+          "rank": 17,
+          "pct": 9.18
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Elsinore",
+          "rank": 18,
+          "pct": 7.67
+        },
+        {
+          "film": "You Can See Everything",
+          "candidate": "You Can See Everything",
+          "rank": 19,
+          "pct": 6.57
+        },
+        {
+          "film": "Possible Love",
+          "candidate": "Possible Love",
+          "rank": 20,
+          "pct": 5.14
+        },
+        {
+          "film": "Ink",
+          "candidate": "Ink",
+          "rank": 21,
+          "pct": 4.51
+        },
+        {
+          "film": "The Social Reckoning",
+          "candidate": "The Social Reckoning",
+          "rank": 22,
+          "pct": 4.11
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Fatherland",
+          "rank": 23,
+          "pct": 2.69
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Primetime",
+          "rank": 24,
+          "pct": 2.61
+        },
+        {
+          "film": "Josephine",
+          "candidate": "Josephine",
+          "rank": 25,
+          "pct": 2.37
+        },
+        {
+          "film": "The Further Mis-Adventures of Cliff Booth",
+          "candidate": "The Further Mis-Adventures of Cliff Booth",
+          "rank": 26,
+          "pct": 2.29
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Tender Loving Care",
+          "rank": 27,
+          "pct": 2.06
+        },
+        {
+          "film": "Sense and Sensibility",
+          "candidate": "Sense and Sensibility",
+          "rank": 28,
+          "pct": 1.5
+        },
+        {
+          "film": "Paper Tiger",
+          "candidate": "Paper Tiger",
+          "rank": 29,
+          "pct": 1.11
+        },
+        {
+          "film": "Werwulf",
+          "candidate": "Werwulf",
+          "rank": 30,
+          "pct": 0.71
+        },
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 31,
+          "pct": 0.63
+        },
+        {
+          "film": "Backrooms",
+          "candidate": "Backrooms",
+          "rank": 32,
+          "pct": 0.55
+        },
+        {
+          "film": "Minotaur",
+          "candidate": "Minotaur",
+          "rank": 33,
+          "pct": 0.55
+        },
+        {
+          "film": "I Swear",
+          "candidate": "I Swear",
+          "rank": 34,
+          "pct": 0.47
+        },
+        {
+          "film": "Teenage Sex and Death at Camp Miasma",
+          "candidate": "Teenage Sex and Death at Camp Miasma",
+          "rank": 35,
+          "pct": 0.47
+        },
+        {
+          "film": "Your Mother Your Mother Your Mother",
+          "candidate": "Your Mother Your Mother Your Mother",
+          "rank": 36,
+          "pct": 0.47
+        },
+        {
+          "film": "The Devil Wears Prada 2",
+          "candidate": "The Devil Wears Prada 2",
+          "rank": 37,
+          "pct": 0.4
+        },
+        {
+          "film": "The Drama",
+          "candidate": "The Drama",
+          "rank": 38,
+          "pct": 0.4
+        },
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 39,
+          "pct": 0.4
+        },
+        {
+          "film": "Spider-Man: Brand New Day",
+          "candidate": "Spider-Man: Brand New Day",
+          "rank": 40,
+          "pct": 0.4
+        },
+        {
+          "film": "Disclosure Day",
+          "candidate": "Disclosure Day",
+          "rank": 41,
+          "pct": 0.32
+        },
+        {
+          "film": "Pressure",
+          "candidate": "Pressure",
+          "rank": 42,
+          "pct": 0.32
+        },
+        {
+          "film": "Tony",
+          "candidate": "Tony",
+          "rank": 43,
+          "pct": 0.32
+        },
+        {
+          "film": "Misty Green",
+          "candidate": "Misty Green",
+          "rank": 44,
+          "pct": 0.32
+        },
+        {
+          "film": "Clarissa",
+          "candidate": "Clarissa",
+          "rank": 45,
+          "pct": 0.24
+        },
+        {
+          "film": "Long Day's Journey into Night",
+          "candidate": "Long Day's Journey into Night",
+          "rank": 46,
+          "pct": 0.24
+        },
+        {
+          "film": "Is God Is",
+          "candidate": "Is God Is",
+          "rank": 47,
+          "pct": 0.16
+        },
+        {
+          "film": "Mother Mary",
+          "candidate": "Mother Mary",
+          "rank": 48,
+          "pct": 0.16
+        },
+        {
+          "film": "Tuner",
+          "candidate": "Tuner",
+          "rank": 49,
+          "pct": 0.16
+        },
+        {
+          "film": "Wuthering Heights",
+          "candidate": "Wuthering Heights",
+          "rank": 50,
+          "pct": 0.16
+        },
+        {
+          "film": "The Sheep Detectives",
+          "candidate": "The Sheep Detectives",
+          "rank": 51,
+          "pct": 0.16
+        },
+        {
+          "film": "Coward",
+          "candidate": "Coward",
+          "rank": 52,
+          "pct": 0.08
+        },
+        {
+          "film": "Gentle Monster",
+          "candidate": "Gentle Monster",
+          "rank": 53,
+          "pct": 0.08
+        },
+        {
+          "film": "Late Fame",
+          "candidate": "Late Fame",
+          "rank": 54,
+          "pct": 0.08
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "The Only Living Pickpocket in New York",
+          "rank": 55,
+          "pct": 0.08
+        },
+        {
+          "film": "The Unknown",
+          "candidate": "The Unknown",
+          "rank": 56,
+          "pct": 0.08
+        },
+        {
+          "film": "The Weight",
+          "candidate": "The Weight",
+          "rank": 57,
+          "pct": 0.08
+        },
+        {
+          "film": "Whalefall",
+          "candidate": "Whalefall",
+          "rank": 58,
+          "pct": 0.08
+        },
+        {
+          "film": "Wicker",
+          "candidate": "Wicker",
+          "rank": 59,
+          "pct": 0.08
+        },
+        {
+          "film": "Bedford Park",
+          "candidate": "Bedford Park",
+          "rank": 60,
+          "pct": 0.08
+        },
+        {
+          "film": "Gail Daughtry and the Celebrity Sex Pass",
+          "candidate": "Gail Daughtry and the Celebrity Sex Pass",
+          "rank": 61,
+          "pct": 0.08
+        },
+        {
+          "film": "Ha-Chan, Shake Your Booty!",
+          "candidate": "Ha-Chan, Shake Your Booty!",
+          "rank": 62,
+          "pct": 0.08
+        },
+        {
+          "film": "Rose",
+          "candidate": "Rose",
+          "rank": 63,
+          "pct": 0.08
+        },
+        {
+          "film": "Ebenezer",
+          "candidate": "Ebenezer",
+          "rank": 64,
+          "pct": 0.08
+        },
+        {
+          "film": "Prima Facie",
+          "candidate": "Prima Facie",
+          "rank": 65,
+          "pct": 0.08
+        },
+        {
+          "film": "A Long Winter",
+          "candidate": "A Long Winter",
+          "rank": 66,
+          "pct": 0.08
+        },
+        {
+          "film": "Bitter Christmas",
+          "candidate": "Bitter Christmas",
+          "rank": 67,
+          "pct": 0.0
+        },
+        {
+          "film": "The Christophers",
+          "candidate": "The Christophers",
+          "rank": 68,
+          "pct": 0.0
+        },
+        {
+          "film": "Couture",
+          "candidate": "Couture",
+          "rank": 69,
+          "pct": 0.0
+        },
+        {
+          "film": "The Dog Stars",
+          "candidate": "The Dog Stars",
+          "rank": 70,
+          "pct": 0.0
+        },
+        {
+          "film": "Forgotten Island",
+          "candidate": "Forgotten Island",
+          "rank": 71,
+          "pct": 0.0
+        },
+        {
+          "film": "Glenrothan",
+          "candidate": "Glenrothan",
+          "rank": 72,
+          "pct": 0.0
+        },
+        {
+          "film": "Her Private Hell",
+          "candidate": "Her Private Hell",
+          "rank": 73,
+          "pct": 0.0
+        },
+        {
+          "film": "Hope",
+          "candidate": "Hope",
+          "rank": 74,
+          "pct": 0.0
+        },
+        {
+          "film": "I Love Boosters",
+          "candidate": "I Love Boosters",
+          "rank": 75,
+          "pct": 0.0
+        },
+        {
+          "film": "In the Hand of Dante",
+          "candidate": "In the Hand of Dante",
+          "rank": 76,
+          "pct": 0.0
+        },
+        {
+          "film": "Klara and the Sun",
+          "candidate": "Klara and the Sun",
+          "rank": 77,
+          "pct": 0.0
+        },
+        {
+          "film": "Madden",
+          "candidate": "Madden",
+          "rank": 78,
+          "pct": 0.0
+        },
+        {
+          "film": "Never After Dark",
+          "candidate": "Never After Dark",
+          "rank": 79,
+          "pct": 0.0
+        },
+        {
+          "film": "A Talent for Murder",
+          "candidate": "A Talent for Murder",
+          "rank": 80,
+          "pct": 0.0
+        },
+        {
+          "film": "The Uprising",
+          "candidate": "The Uprising",
+          "rank": 81,
+          "pct": 0.0
+        },
+        {
+          "film": "Verity",
+          "candidate": "Verity",
+          "rank": 82,
+          "pct": 0.0
+        },
+        {
+          "film": "The Wizard of the Kremlin",
+          "candidate": "The Wizard of the Kremlin",
+          "rank": 83,
+          "pct": 0.0
+        },
+        {
+          "film": "The Liberation",
+          "candidate": "The Liberation",
+          "rank": 84,
+          "pct": 0.0
+        },
+        {
+          "film": "The Get Out",
+          "candidate": "The Get Out",
+          "rank": 85,
+          "pct": 0.0
+        },
+        {
+          "film": "Bunker",
+          "candidate": "Bunker",
+          "rank": 86,
+          "pct": 0.0
+        },
+        {
+          "film": "Tenzing",
+          "candidate": "Tenzing",
+          "rank": 87,
+          "pct": 0.0
+        },
+        {
+          "film": "La Gradiva",
+          "candidate": "La Gradiva",
+          "rank": 88,
+          "pct": 0.0
+        }
+      ],
+      "Best Director": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Christopher Nolan",
+          "rank": 1,
+          "pct": 89.33
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Javier Ambrossi, Javier Calvo",
+          "rank": 2,
+          "pct": 83.13
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Martin McDonagh",
+          "rank": 3,
+          "pct": 79.4
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 4,
+          "pct": 67.82
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Denis Villeneuve",
+          "rank": 5,
+          "pct": 40.12
+        },
+        {
+          "film": "Digger",
+          "candidate": "Alejandro G. Inarritu",
+          "rank": 6,
+          "pct": 38.91
+        },
+        {
+          "film": "The Debut",
+          "candidate": "Jesse Eisenberg",
+          "rank": 7,
+          "pct": 26.96
+        },
+        {
+          "film": "Behemoth!",
+          "candidate": "Tony Gilroy",
+          "rank": 8,
+          "pct": 14.76
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Ryusuke Hamaguchi",
+          "rank": 9,
+          "pct": 13.44
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Cristian Mungiu",
+          "rank": 10,
+          "pct": 12.45
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Phil Lord, Christopher Miller",
+          "rank": 11,
+          "pct": 5.61
+        },
+        {
+          "film": "Possible Love",
+          "candidate": "Lee Chang-dong",
+          "rank": 12,
+          "pct": 3.05
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Curry Barker",
+          "rank": 13,
+          "pct": 2.56
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Pawel Pawlikowski",
+          "rank": 14,
+          "pct": 1.57
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Mike Leigh",
+          "rank": 15,
+          "pct": 1.15
+        },
+        {
+          "film": "You Can See Everything",
+          "candidate": "Nathan Fielder and Lance Oppenheim",
+          "rank": 16,
+          "pct": 0.99
+        },
+        {
+          "film": "Being Heumann",
+          "candidate": "Sian Heder",
+          "rank": 17,
+          "pct": 0.91
+        },
+        {
+          "film": "Artificial",
+          "candidate": "Luca Guadagnino",
+          "rank": 18,
+          "pct": 0.66
+        },
+        {
+          "film": "Josephine",
+          "candidate": "Beth de Araújo",
+          "rank": 19,
+          "pct": 0.49
+        },
+        {
+          "film": "Ink",
+          "candidate": "Danny Boyle",
+          "rank": 20,
+          "pct": 0.41
+        },
+        {
+          "film": "The Further Mis-Adventures of Cliff Booth",
+          "candidate": "David Fincher",
+          "rank": 21,
+          "pct": 0.33
+        },
+        {
+          "film": "Is God Is",
+          "candidate": "Aleshea Harris",
+          "rank": 22,
+          "pct": 0.33
+        },
+        {
+          "film": "The Devil Wears Prada 2",
+          "candidate": "David Frankel",
+          "rank": 23,
+          "pct": 0.25
+        },
+        {
+          "film": "I Play Rocky",
+          "candidate": "Peter Farrelly",
+          "rank": 24,
+          "pct": 0.25
+        },
+        {
+          "film": "Michael",
+          "candidate": "Antoine Fuqua",
+          "rank": 25,
+          "pct": 0.25
+        },
+        {
+          "film": "Minotaur",
+          "candidate": "Andrey Zvyagintsev",
+          "rank": 26,
+          "pct": 0.25
+        },
+        {
+          "film": "Your Mother Your Mother Your Mother",
+          "candidate": "Bassam Tariq",
+          "rank": 27,
+          "pct": 0.25
+        },
+        {
+          "film": "Backrooms",
+          "candidate": "Kane Parsons",
+          "rank": 28,
+          "pct": 0.16
+        },
+        {
+          "film": "Werwulf",
+          "candidate": "Robert Eggers",
+          "rank": 29,
+          "pct": 0.16
+        },
+        {
+          "film": "Teenage Sex and Death at Camp Miasma",
+          "candidate": "Jane Schoenbrun",
+          "rank": 30,
+          "pct": 0.08
+        },
+        {
+          "film": "Disclosure Day",
+          "candidate": "Steven Spielberg",
+          "rank": 31,
+          "pct": 0.08
+        },
+        {
+          "film": "Hope",
+          "candidate": "Na Hong-jin",
+          "rank": 32,
+          "pct": 0.08
+        },
+        {
+          "film": "I Swear",
+          "candidate": "Kirk Jones",
+          "rank": 33,
+          "pct": 0.08
+        },
+        {
+          "film": "Paper Tiger",
+          "candidate": "James Gray",
+          "rank": 34,
+          "pct": 0.08
+        },
+        {
+          "film": "Pressure",
+          "candidate": "Anthony Maras",
+          "rank": 35,
+          "pct": 0.08
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Lance Oppenheim",
+          "rank": 36,
+          "pct": 0.08
+        },
+        {
+          "film": "Sense and Sensibility",
+          "candidate": "Georgia Oakley",
+          "rank": 37,
+          "pct": 0.08
+        },
+        {
+          "film": "The Social Reckoning",
+          "candidate": "Aaron Sorkin",
+          "rank": 38,
+          "pct": 0.08
+        },
+        {
+          "film": "Bedford Park",
+          "candidate": "Stephanie Ahn",
+          "rank": 39,
+          "pct": 0.08
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Simon Stone",
+          "rank": 40,
+          "pct": 0.08
+        },
+        {
+          "film": "Bitter Christmas",
+          "candidate": "Pedro Almodovar",
+          "rank": 41,
+          "pct": 0.0
+        },
+        {
+          "film": "The Christophers",
+          "candidate": "Steven Soderbergh",
+          "rank": 42,
+          "pct": 0.0
+        },
+        {
+          "film": "Clarissa",
+          "candidate": "Arie Esiri, Chuko Esiri",
+          "rank": 43,
+          "pct": 0.0
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Jordan Firstman",
+          "rank": 44,
+          "pct": 0.0
+        },
+        {
+          "film": "Couture",
+          "candidate": "Alice Winocour",
+          "rank": 45,
+          "pct": 0.0
+        },
+        {
+          "film": "Coward",
+          "candidate": "Lukas Dhont",
+          "rank": 46,
+          "pct": 0.0
+        },
+        {
+          "film": "The Dog Stars",
+          "candidate": "Ridley Scott",
+          "rank": 47,
+          "pct": 0.0
+        },
+        {
+          "film": "Gentle Monster",
+          "candidate": "Marie Kreutzer",
+          "rank": 48,
+          "pct": 0.0
+        },
+        {
+          "film": "Glenrothan",
+          "candidate": "Brian Cox",
+          "rank": 49,
+          "pct": 0.0
+        },
+        {
+          "film": "Her Private Hell",
+          "candidate": "Nicolas Winding Refn",
+          "rank": 50,
+          "pct": 0.0
+        },
+        {
+          "film": "I Love Boosters",
+          "candidate": "Boots Riley",
+          "rank": 51,
+          "pct": 0.0
+        },
+        {
+          "film": "In the Hand of Dante",
+          "candidate": "Julian Schnabel",
+          "rank": 52,
+          "pct": 0.0
+        },
+        {
+          "film": "Klara and the Sun",
+          "candidate": "Taika Waititi",
+          "rank": 53,
+          "pct": 0.0
+        },
+        {
+          "film": "Late Fame",
+          "candidate": "Kent Jones",
+          "rank": 54,
+          "pct": 0.0
+        },
+        {
+          "film": "Madden",
+          "candidate": "David O. Russell",
+          "rank": 55,
+          "pct": 0.0
+        },
+        {
+          "film": "Mother Mary",
+          "candidate": "David Lowery",
+          "rank": 56,
+          "pct": 0.0
+        },
+        {
+          "film": "Never After Dark",
+          "candidate": "Dave Boyle",
+          "rank": 57,
+          "pct": 0.0
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "Noah Segan",
+          "rank": 58,
+          "pct": 0.0
+        },
+        {
+          "film": "A Talent for Murder",
+          "candidate": "Anton Corbijn",
+          "rank": 59,
+          "pct": 0.0
+        },
+        {
+          "film": "Tony",
+          "candidate": "Matt Johnson",
+          "rank": 60,
+          "pct": 0.0
+        },
+        {
+          "film": "Tuner",
+          "candidate": "Daniel Roher",
+          "rank": 61,
+          "pct": 0.0
+        },
+        {
+          "film": "The Unknown",
+          "candidate": "Arthur Harari",
+          "rank": 62,
+          "pct": 0.0
+        },
+        {
+          "film": "The Uprising",
+          "candidate": "Paul Greengrass",
+          "rank": 63,
+          "pct": 0.0
+        },
+        {
+          "film": "Verity",
+          "candidate": "Michael Showalter",
+          "rank": 64,
+          "pct": 0.0
+        },
+        {
+          "film": "The Weight",
+          "candidate": "Padraic McKinley",
+          "rank": 65,
+          "pct": 0.0
+        },
+        {
+          "film": "Whalefall",
+          "candidate": "Brian Duffield",
+          "rank": 66,
+          "pct": 0.0
+        },
+        {
+          "film": "Wicker",
+          "candidate": "Alex Huston Fischer, Eleanor Wilson",
+          "rank": 67,
+          "pct": 0.0
+        },
+        {
+          "film": "The Wizard of the Kremlin",
+          "candidate": "Olivier Assayas",
+          "rank": 68,
+          "pct": 0.0
+        },
+        {
+          "film": "Wuthering Heights",
+          "candidate": "Emerald Fennell",
+          "rank": 69,
+          "pct": 0.0
+        },
+        {
+          "film": "The Liberation",
+          "candidate": "Guy Nattiv",
+          "rank": 70,
+          "pct": 0.0
+        },
+        {
+          "film": "Ha-Chan, Shake Your Booty!",
+          "candidate": "Josef Kubota Wladyka",
+          "rank": 71,
+          "pct": 0.0
+        },
+        {
+          "film": "Misty Green",
+          "candidate": "Chris Rock",
+          "rank": 72,
+          "pct": 0.0
+        },
+        {
+          "film": "Rose",
+          "candidate": "Markus Schleinzer",
+          "rank": 73,
+          "pct": 0.0
+        },
+        {
+          "film": "Prima Facie",
+          "candidate": "Susanna White",
+          "rank": 74,
+          "pct": 0.0
+        },
+        {
+          "film": "Bunker",
+          "candidate": "Florian Zeller",
+          "rank": 75,
+          "pct": 0.0
+        },
+        {
+          "film": "Tenzing",
+          "candidate": "Jennifer Peedom",
+          "rank": 76,
+          "pct": 0.0
+        },
+        {
+          "film": "A Long Winter",
+          "candidate": "Andrew Haigh",
+          "rank": 77,
+          "pct": 0.0
+        },
+        {
+          "film": "Long Day's Journey into Night",
+          "candidate": "Jonathan Kent",
+          "rank": 78,
+          "pct": 0.0
+        },
+        {
+          "film": "La Gradiva",
+          "candidate": "Marine Atlan",
+          "rank": 79,
+          "pct": 0.0
+        }
+      ],
+      "Best Actress": [
+        {
+          "film": "The Debut",
+          "candidate": "Julianne Moore",
+          "rank": 1,
+          "pct": 89.36
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Inde Navarrette",
+          "rank": 2,
+          "pct": 78.08
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 3,
+          "pct": 74.38
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Renate Reinsve",
+          "rank": 4,
+          "pct": 52.78
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Sandra Hüller",
+          "rank": 5,
+          "pct": 38.44
+        }
+      ],
+      "Best Actor": [
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "John Malkovich",
+          "rank": 1,
+          "pct": 87.84
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Matt Damon",
+          "rank": 2,
+          "pct": 84.38
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Andrew Scott",
+          "rank": 3,
+          "pct": 74.8
+        },
+        {
+          "film": "Digger",
+          "candidate": "Tom Cruise",
+          "rank": 4,
+          "pct": 67.63
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Robert Pattinson",
+          "rank": 5,
+          "pct": 52.01
+        }
+      ],
+      "Best Supporting Actress": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Anne Hathaway",
+          "rank": 1,
+          "pct": 87.09
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Penelope Cruz",
+          "rank": 2,
+          "pct": 78.06
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Samantha Morton",
+          "rank": 3,
+          "pct": 74.83
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Tao Okamoto",
+          "rank": 4,
+          "pct": 51.24
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Mariana Di Girolamo",
+          "rank": 5,
+          "pct": 46.03
+        }
+      ],
+      "Best Supporting Actor": [
+        {
+          "film": "The Debut",
+          "candidate": "Paul Giamatti",
+          "rank": 1,
+          "pct": 87.68
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Sam Rockwell",
+          "rank": 2,
+          "pct": 84.56
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "John Leguizamo",
+          "rank": 3,
+          "pct": 72.07
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Edward Norton",
+          "rank": 4,
+          "pct": 62.62
+        },
+        {
+          "film": "Digger",
+          "candidate": "John Goodman",
+          "rank": 5,
+          "pct": 57.22
+        }
+      ],
+      "Best Adapted Screenplay": [
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 1,
+          "pct": 87.72
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 2,
+          "pct": 87.16
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 3,
+          "pct": 84.0
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 4,
+          "pct": 78.14
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 5,
+          "pct": 59.63
+        }
+      ],
+      "Best Original Screenplay": [
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 1,
+          "pct": 88.79
+        },
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 2,
+          "pct": 88.05
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 3,
+          "pct": 67.92
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 4,
+          "pct": 67.28
+        },
+        {
+          "film": "Digger",
+          "candidate": "Digger",
+          "rank": 5,
+          "pct": 54.04
+        }
+      ],
+      "Best Animated Feature": [
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 1,
+          "pct": 89.4
+        },
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 2,
+          "pct": 88.63
+        },
+        {
+          "film": "Hoppers",
+          "candidate": "Hoppers",
+          "rank": 3,
+          "pct": 76.17
+        },
+        {
+          "film": "Iron Boy",
+          "candidate": "Iron Boy",
+          "rank": 4,
+          "pct": 61.75
+        },
+        {
+          "film": "Tangles",
+          "candidate": "Tangles",
+          "rank": 5,
+          "pct": 53.69
+        }
+      ]
+    },
+    "editors": {
+      "Best Picture": [
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 3,
+          "pct": 100.0
+        },
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 4,
+          "pct": 88.89
+        },
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 5,
+          "pct": 88.89
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 6,
+          "pct": 88.89
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Dune: Part Three",
+          "rank": 7,
+          "pct": 66.67
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 8,
+          "pct": 66.67
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Club Kid",
+          "rank": 9,
+          "pct": 55.56
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 10,
+          "pct": 44.44
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 11,
+          "pct": 44.44
+        },
+        {
+          "film": "I Play Rocky",
+          "candidate": "I Play Rocky",
+          "rank": 12,
+          "pct": 44.44
+        },
+        {
+          "film": "Behemoth!",
+          "candidate": "Behemoth!",
+          "rank": 13,
+          "pct": 33.33
+        },
+        {
+          "film": "Michael",
+          "candidate": "Michael",
+          "rank": 14,
+          "pct": 22.22
+        },
+        {
+          "film": "Ink",
+          "candidate": "Ink",
+          "rank": 15,
+          "pct": 22.22
+        },
+        {
+          "film": "Digger",
+          "candidate": "Digger",
+          "rank": 16,
+          "pct": 11.11
+        },
+        {
+          "film": "Being Heumann",
+          "candidate": "Being Heumann",
+          "rank": 17,
+          "pct": 11.11
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Elsinore",
+          "rank": 18,
+          "pct": 11.11
+        },
+        {
+          "film": "The Further Mis-Adventures of Cliff Booth",
+          "candidate": "The Further Mis-Adventures of Cliff Booth",
+          "rank": 19,
+          "pct": 0.0
+        },
+        {
+          "film": "Artificial",
+          "candidate": "Artificial",
+          "rank": 20,
+          "pct": 0.0
+        },
+        {
+          "film": "Backrooms",
+          "candidate": "Backrooms",
+          "rank": 21,
+          "pct": 0.0
+        },
+        {
+          "film": "Bitter Christmas",
+          "candidate": "Bitter Christmas",
+          "rank": 22,
+          "pct": 0.0
+        },
+        {
+          "film": "The Christophers",
+          "candidate": "The Christophers",
+          "rank": 23,
+          "pct": 0.0
+        },
+        {
+          "film": "Clarissa",
+          "candidate": "Clarissa",
+          "rank": 24,
+          "pct": 0.0
+        },
+        {
+          "film": "Couture",
+          "candidate": "Couture",
+          "rank": 25,
+          "pct": 0.0
+        },
+        {
+          "film": "Coward",
+          "candidate": "Coward",
+          "rank": 26,
+          "pct": 0.0
+        },
+        {
+          "film": "The Devil Wears Prada 2",
+          "candidate": "The Devil Wears Prada 2",
+          "rank": 27,
+          "pct": 0.0
+        },
+        {
+          "film": "Disclosure Day",
+          "candidate": "Disclosure Day",
+          "rank": 28,
+          "pct": 0.0
+        },
+        {
+          "film": "The Dog Stars",
+          "candidate": "The Dog Stars",
+          "rank": 29,
+          "pct": 0.0
+        },
+        {
+          "film": "The Drama",
+          "candidate": "The Drama",
+          "rank": 30,
+          "pct": 0.0
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Fatherland",
+          "rank": 31,
+          "pct": 0.0
+        },
+        {
+          "film": "Forgotten Island",
+          "candidate": "Forgotten Island",
+          "rank": 32,
+          "pct": 0.0
+        },
+        {
+          "film": "Gentle Monster",
+          "candidate": "Gentle Monster",
+          "rank": 33,
+          "pct": 0.0
+        },
+        {
+          "film": "Glenrothan",
+          "candidate": "Glenrothan",
+          "rank": 34,
+          "pct": 0.0
+        },
+        {
+          "film": "Her Private Hell",
+          "candidate": "Her Private Hell",
+          "rank": 35,
+          "pct": 0.0
+        },
+        {
+          "film": "Hope",
+          "candidate": "Hope",
+          "rank": 36,
+          "pct": 0.0
+        },
+        {
+          "film": "I Love Boosters",
+          "candidate": "I Love Boosters",
+          "rank": 37,
+          "pct": 0.0
+        },
+        {
+          "film": "In the Hand of Dante",
+          "candidate": "In the Hand of Dante",
+          "rank": 38,
+          "pct": 0.0
+        },
+        {
+          "film": "Is God Is",
+          "candidate": "Is God Is",
+          "rank": 39,
+          "pct": 0.0
+        },
+        {
+          "film": "I Swear",
+          "candidate": "I Swear",
+          "rank": 40,
+          "pct": 0.0
+        },
+        {
+          "film": "Josephine",
+          "candidate": "Josephine",
+          "rank": 41,
+          "pct": 0.0
+        },
+        {
+          "film": "Klara and the Sun",
+          "candidate": "Klara and the Sun",
+          "rank": 42,
+          "pct": 0.0
+        },
+        {
+          "film": "Late Fame",
+          "candidate": "Late Fame",
+          "rank": 43,
+          "pct": 0.0
+        },
+        {
+          "film": "Madden",
+          "candidate": "Madden",
+          "rank": 44,
+          "pct": 0.0
+        },
+        {
+          "film": "Minotaur",
+          "candidate": "Minotaur",
+          "rank": 45,
+          "pct": 0.0
+        },
+        {
+          "film": "Mother Mary",
+          "candidate": "Mother Mary",
+          "rank": 46,
+          "pct": 0.0
+        },
+        {
+          "film": "Never After Dark",
+          "candidate": "Never After Dark",
+          "rank": 47,
+          "pct": 0.0
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "The Only Living Pickpocket in New York",
+          "rank": 48,
+          "pct": 0.0
+        },
+        {
+          "film": "Paper Tiger",
+          "candidate": "Paper Tiger",
+          "rank": 49,
+          "pct": 0.0
+        },
+        {
+          "film": "Pressure",
+          "candidate": "Pressure",
+          "rank": 50,
+          "pct": 0.0
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Primetime",
+          "rank": 51,
+          "pct": 0.0
+        },
+        {
+          "film": "Sense and Sensibility",
+          "candidate": "Sense and Sensibility",
+          "rank": 52,
+          "pct": 0.0
+        },
+        {
+          "film": "The Social Reckoning",
+          "candidate": "The Social Reckoning",
+          "rank": 53,
+          "pct": 0.0
+        },
+        {
+          "film": "A Talent for Murder",
+          "candidate": "A Talent for Murder",
+          "rank": 54,
+          "pct": 0.0
+        },
+        {
+          "film": "Tony",
+          "candidate": "Tony",
+          "rank": 55,
+          "pct": 0.0
+        },
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 56,
+          "pct": 0.0
+        },
+        {
+          "film": "Tuner",
+          "candidate": "Tuner",
+          "rank": 57,
+          "pct": 0.0
+        },
+        {
+          "film": "The Unknown",
+          "candidate": "The Unknown",
+          "rank": 58,
+          "pct": 0.0
+        },
+        {
+          "film": "The Uprising",
+          "candidate": "The Uprising",
+          "rank": 59,
+          "pct": 0.0
+        },
+        {
+          "film": "Verity",
+          "candidate": "Verity",
+          "rank": 60,
+          "pct": 0.0
+        },
+        {
+          "film": "The Weight",
+          "candidate": "The Weight",
+          "rank": 61,
+          "pct": 0.0
+        },
+        {
+          "film": "Werwulf",
+          "candidate": "Werwulf",
+          "rank": 62,
+          "pct": 0.0
+        },
+        {
+          "film": "Whalefall",
+          "candidate": "Whalefall",
+          "rank": 63,
+          "pct": 0.0
+        },
+        {
+          "film": "Wicker",
+          "candidate": "Wicker",
+          "rank": 64,
+          "pct": 0.0
+        },
+        {
+          "film": "The Wizard of the Kremlin",
+          "candidate": "The Wizard of the Kremlin",
+          "rank": 65,
+          "pct": 0.0
+        },
+        {
+          "film": "Wuthering Heights",
+          "candidate": "Wuthering Heights",
+          "rank": 66,
+          "pct": 0.0
+        },
+        {
+          "film": "The Liberation",
+          "candidate": "The Liberation",
+          "rank": 67,
+          "pct": 0.0
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Tender Loving Care",
+          "rank": 68,
+          "pct": 0.0
+        },
+        {
+          "film": "Bedford Park",
+          "candidate": "Bedford Park",
+          "rank": 69,
+          "pct": 0.0
+        },
+        {
+          "film": "Gail Daughtry and the Celebrity Sex Pass",
+          "candidate": "Gail Daughtry and the Celebrity Sex Pass",
+          "rank": 70,
+          "pct": 0.0
+        },
+        {
+          "film": "The Get Out",
+          "candidate": "The Get Out",
+          "rank": 71,
+          "pct": 0.0
+        },
+        {
+          "film": "Ha-Chan, Shake Your Booty!",
+          "candidate": "Ha-Chan, Shake Your Booty!",
+          "rank": 72,
+          "pct": 0.0
+        },
+        {
+          "film": "The Sheep Detectives",
+          "candidate": "The Sheep Detectives",
+          "rank": 73,
+          "pct": 0.0
+        },
+        {
+          "film": "Teenage Sex and Death at Camp Miasma",
+          "candidate": "Teenage Sex and Death at Camp Miasma",
+          "rank": 74,
+          "pct": 0.0
+        },
+        {
+          "film": "Possible Love",
+          "candidate": "Possible Love",
+          "rank": 75,
+          "pct": 0.0
+        },
+        {
+          "film": "Misty Green",
+          "candidate": "Misty Green",
+          "rank": 76,
+          "pct": 0.0
+        },
+        {
+          "film": "Rose",
+          "candidate": "Rose",
+          "rank": 77,
+          "pct": 0.0
+        },
+        {
+          "film": "Spider-Man: Brand New Day",
+          "candidate": "Spider-Man: Brand New Day",
+          "rank": 78,
+          "pct": 0.0
+        },
+        {
+          "film": "Ebenezer",
+          "candidate": "Ebenezer",
+          "rank": 79,
+          "pct": 0.0
+        },
+        {
+          "film": "Prima Facie",
+          "candidate": "Prima Facie",
+          "rank": 80,
+          "pct": 0.0
+        },
+        {
+          "film": "Your Mother Your Mother Your Mother",
+          "candidate": "Your Mother Your Mother Your Mother",
+          "rank": 81,
+          "pct": 0.0
+        },
+        {
+          "film": "You Can See Everything",
+          "candidate": "You Can See Everything",
+          "rank": 82,
+          "pct": 0.0
+        },
+        {
+          "film": "Bunker",
+          "candidate": "Bunker",
+          "rank": 83,
+          "pct": 0.0
+        },
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 84,
+          "pct": 0.0
+        },
+        {
+          "film": "Tenzing",
+          "candidate": "Tenzing",
+          "rank": 85,
+          "pct": 0.0
+        },
+        {
+          "film": "A Long Winter",
+          "candidate": "A Long Winter",
+          "rank": 86,
+          "pct": 0.0
+        },
+        {
+          "film": "Long Day's Journey into Night",
+          "candidate": "Long Day's Journey into Night",
+          "rank": 87,
+          "pct": 0.0
+        },
+        {
+          "film": "La Gradiva",
+          "candidate": "La Gradiva",
+          "rank": 88,
+          "pct": 0.0
+        }
+      ],
+      "Best Director": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Christopher Nolan",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Martin McDonagh",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 3,
+          "pct": 88.89
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Javier Ambrossi, Javier Calvo",
+          "rank": 4,
+          "pct": 88.89
+        },
+        {
+          "film": "The Debut",
+          "candidate": "Jesse Eisenberg",
+          "rank": 5,
+          "pct": 33.33
+        },
+        {
+          "film": "The Debut",
+          "candidate": "Jesse Eisenberg",
+          "rank": 6,
+          "pct": 33.33
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Cristian Mungiu",
+          "rank": 7,
+          "pct": 22.22
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Ryusuke Hamaguchi",
+          "rank": 8,
+          "pct": 11.11
+        },
+        {
+          "film": "Minotaur",
+          "candidate": "Andrey Zvyagintsev",
+          "rank": 9,
+          "pct": 11.11
+        },
+        {
+          "film": "Digger",
+          "candidate": "Alejandro G. Inarritu",
+          "rank": 10,
+          "pct": 0.0
+        },
+        {
+          "film": "The Further Mis-Adventures of Cliff Booth",
+          "candidate": "David Fincher",
+          "rank": 11,
+          "pct": 0.0
+        },
+        {
+          "film": "Artificial",
+          "candidate": "Luca Guadagnino",
+          "rank": 12,
+          "pct": 0.0
+        },
+        {
+          "film": "Backrooms",
+          "candidate": "Kane Parsons",
+          "rank": 13,
+          "pct": 0.0
+        },
+        {
+          "film": "Behemoth!",
+          "candidate": "Tony Gilroy",
+          "rank": 14,
+          "pct": 0.0
+        },
+        {
+          "film": "Being Heumann",
+          "candidate": "Sian Heder",
+          "rank": 15,
+          "pct": 0.0
+        },
+        {
+          "film": "Bitter Christmas",
+          "candidate": "Pedro Almodovar",
+          "rank": 16,
+          "pct": 0.0
+        },
+        {
+          "film": "The Christophers",
+          "candidate": "Steven Soderbergh",
+          "rank": 17,
+          "pct": 0.0
+        },
+        {
+          "film": "Clarissa",
+          "candidate": "Arie Esiri, Chuko Esiri",
+          "rank": 18,
+          "pct": 0.0
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Jordan Firstman",
+          "rank": 19,
+          "pct": 0.0
+        },
+        {
+          "film": "Couture",
+          "candidate": "Alice Winocour",
+          "rank": 20,
+          "pct": 0.0
+        },
+        {
+          "film": "Coward",
+          "candidate": "Lukas Dhont",
+          "rank": 21,
+          "pct": 0.0
+        },
+        {
+          "film": "The Devil Wears Prada 2",
+          "candidate": "David Frankel",
+          "rank": 22,
+          "pct": 0.0
+        },
+        {
+          "film": "Disclosure Day",
+          "candidate": "Steven Spielberg",
+          "rank": 23,
+          "pct": 0.0
+        },
+        {
+          "film": "The Dog Stars",
+          "candidate": "Ridley Scott",
+          "rank": 24,
+          "pct": 0.0
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Pawel Pawlikowski",
+          "rank": 25,
+          "pct": 0.0
+        },
+        {
+          "film": "Gentle Monster",
+          "candidate": "Marie Kreutzer",
+          "rank": 26,
+          "pct": 0.0
+        },
+        {
+          "film": "Glenrothan",
+          "candidate": "Brian Cox",
+          "rank": 27,
+          "pct": 0.0
+        },
+        {
+          "film": "Her Private Hell",
+          "candidate": "Nicolas Winding Refn",
+          "rank": 28,
+          "pct": 0.0
+        },
+        {
+          "film": "Hope",
+          "candidate": "Na Hong-jin",
+          "rank": 29,
+          "pct": 0.0
+        },
+        {
+          "film": "I Love Boosters",
+          "candidate": "Boots Riley",
+          "rank": 30,
+          "pct": 0.0
+        },
+        {
+          "film": "I Play Rocky",
+          "candidate": "Peter Farrelly",
+          "rank": 31,
+          "pct": 0.0
+        },
+        {
+          "film": "In the Hand of Dante",
+          "candidate": "Julian Schnabel",
+          "rank": 32,
+          "pct": 0.0
+        },
+        {
+          "film": "Is God Is",
+          "candidate": "Aleshea Harris",
+          "rank": 33,
+          "pct": 0.0
+        },
+        {
+          "film": "I Swear",
+          "candidate": "Kirk Jones",
+          "rank": 34,
+          "pct": 0.0
+        },
+        {
+          "film": "Josephine",
+          "candidate": "Beth de Araújo",
+          "rank": 35,
+          "pct": 0.0
+        },
+        {
+          "film": "Klara and the Sun",
+          "candidate": "Taika Waititi",
+          "rank": 36,
+          "pct": 0.0
+        },
+        {
+          "film": "Late Fame",
+          "candidate": "Kent Jones",
+          "rank": 37,
+          "pct": 0.0
+        },
+        {
+          "film": "Madden",
+          "candidate": "David O. Russell",
+          "rank": 38,
+          "pct": 0.0
+        },
+        {
+          "film": "Michael",
+          "candidate": "Antoine Fuqua",
+          "rank": 39,
+          "pct": 0.0
+        },
+        {
+          "film": "Mother Mary",
+          "candidate": "David Lowery",
+          "rank": 40,
+          "pct": 0.0
+        },
+        {
+          "film": "Never After Dark",
+          "candidate": "Dave Boyle",
+          "rank": 41,
+          "pct": 0.0
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Curry Barker",
+          "rank": 42,
+          "pct": 0.0
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "Noah Segan",
+          "rank": 43,
+          "pct": 0.0
+        },
+        {
+          "film": "Paper Tiger",
+          "candidate": "James Gray",
+          "rank": 44,
+          "pct": 0.0
+        },
+        {
+          "film": "Pressure",
+          "candidate": "Anthony Maras",
+          "rank": 45,
+          "pct": 0.0
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Lance Oppenheim",
+          "rank": 46,
+          "pct": 0.0
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Phil Lord, Christopher Miller",
+          "rank": 47,
+          "pct": 0.0
+        },
+        {
+          "film": "Sense and Sensibility",
+          "candidate": "Georgia Oakley",
+          "rank": 48,
+          "pct": 0.0
+        },
+        {
+          "film": "The Social Reckoning",
+          "candidate": "Aaron Sorkin",
+          "rank": 49,
+          "pct": 0.0
+        },
+        {
+          "film": "A Talent for Murder",
+          "candidate": "Anton Corbijn",
+          "rank": 50,
+          "pct": 0.0
+        },
+        {
+          "film": "Tony",
+          "candidate": "Matt Johnson",
+          "rank": 51,
+          "pct": 0.0
+        },
+        {
+          "film": "Tuner",
+          "candidate": "Daniel Roher",
+          "rank": 52,
+          "pct": 0.0
+        },
+        {
+          "film": "The Unknown",
+          "candidate": "Arthur Harari",
+          "rank": 53,
+          "pct": 0.0
+        },
+        {
+          "film": "The Uprising",
+          "candidate": "Paul Greengrass",
+          "rank": 54,
+          "pct": 0.0
+        },
+        {
+          "film": "Verity",
+          "candidate": "Michael Showalter",
+          "rank": 55,
+          "pct": 0.0
+        },
+        {
+          "film": "The Weight",
+          "candidate": "Padraic McKinley",
+          "rank": 56,
+          "pct": 0.0
+        },
+        {
+          "film": "Werwulf",
+          "candidate": "Robert Eggers",
+          "rank": 57,
+          "pct": 0.0
+        },
+        {
+          "film": "Whalefall",
+          "candidate": "Brian Duffield",
+          "rank": 58,
+          "pct": 0.0
+        },
+        {
+          "film": "Wicker",
+          "candidate": "Alex Huston Fischer, Eleanor Wilson",
+          "rank": 59,
+          "pct": 0.0
+        },
+        {
+          "film": "The Wizard of the Kremlin",
+          "candidate": "Olivier Assayas",
+          "rank": 60,
+          "pct": 0.0
+        },
+        {
+          "film": "Wuthering Heights",
+          "candidate": "Emerald Fennell",
+          "rank": 61,
+          "pct": 0.0
+        },
+        {
+          "film": "The Liberation",
+          "candidate": "Guy Nattiv",
+          "rank": 62,
+          "pct": 0.0
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Mike Leigh",
+          "rank": 63,
+          "pct": 0.0
+        },
+        {
+          "film": "Bedford Park",
+          "candidate": "Stephanie Ahn",
+          "rank": 64,
+          "pct": 0.0
+        },
+        {
+          "film": "Ha-Chan, Shake Your Booty!",
+          "candidate": "Josef Kubota Wladyka",
+          "rank": 65,
+          "pct": 0.0
+        },
+        {
+          "film": "Teenage Sex and Death at Camp Miasma",
+          "candidate": "Jane Schoenbrun",
+          "rank": 66,
+          "pct": 0.0
+        },
+        {
+          "film": "Ink",
+          "candidate": "Danny Boyle",
+          "rank": 67,
+          "pct": 0.0
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Simon Stone",
+          "rank": 68,
+          "pct": 0.0
+        },
+        {
+          "film": "Possible Love",
+          "candidate": "Lee Chang-dong",
+          "rank": 69,
+          "pct": 0.0
+        },
+        {
+          "film": "Misty Green",
+          "candidate": "Chris Rock",
+          "rank": 70,
+          "pct": 0.0
+        },
+        {
+          "film": "Rose",
+          "candidate": "Markus Schleinzer",
+          "rank": 71,
+          "pct": 0.0
+        },
+        {
+          "film": "Prima Facie",
+          "candidate": "Susanna White",
+          "rank": 72,
+          "pct": 0.0
+        },
+        {
+          "film": "Your Mother Your Mother Your Mother",
+          "candidate": "Bassam Tariq",
+          "rank": 73,
+          "pct": 0.0
+        },
+        {
+          "film": "Bunker",
+          "candidate": "Florian Zeller",
+          "rank": 74,
+          "pct": 0.0
+        },
+        {
+          "film": "You Can See Everything",
+          "candidate": "Nathan Fielder and Lance Oppenheim",
+          "rank": 75,
+          "pct": 0.0
+        },
+        {
+          "film": "Tenzing",
+          "candidate": "Jennifer Peedom",
+          "rank": 76,
+          "pct": 0.0
+        },
+        {
+          "film": "A Long Winter",
+          "candidate": "Andrew Haigh",
+          "rank": 77,
+          "pct": 0.0
+        },
+        {
+          "film": "Long Day's Journey into Night",
+          "candidate": "Jonathan Kent",
+          "rank": 78,
+          "pct": 0.0
+        },
+        {
+          "film": "La Gradiva",
+          "candidate": "Marine Atlan",
+          "rank": 79,
+          "pct": 0.0
+        }
+      ],
+      "Best Actress": [
+        {
+          "film": "The Debut",
+          "candidate": "Julianne Moore",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 2,
+          "pct": 77.78
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Inde Navarrette",
+          "rank": 3,
+          "pct": 66.67
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Sandra Hüller",
+          "rank": 4,
+          "pct": 55.56
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Virginie Efira",
+          "rank": 5,
+          "pct": 44.44
+        }
+      ],
+      "Best Actor": [
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "John Malkovich",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Andrew Scott",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Matt Damon",
+          "rank": 3,
+          "pct": 88.89
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Robert Pattinson",
+          "rank": 4,
+          "pct": 55.56
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "John Turturro",
+          "rank": 5,
+          "pct": 44.44
+        }
+      ],
+      "Best Supporting Actress": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Samantha Morton",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Anne Hathaway",
+          "rank": 2,
+          "pct": 87.5
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Penelope Cruz",
+          "rank": 3,
+          "pct": 75.0
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Tao Okamoto",
+          "rank": 4,
+          "pct": 50.0
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Kate O’Flynn",
+          "rank": 5,
+          "pct": 50.0
+        }
+      ],
+      "Best Supporting Actor": [
+        {
+          "film": "The Debut",
+          "candidate": "Paul Giamatti",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Sam Rockwell",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "John Leguizamo",
+          "rank": 3,
+          "pct": 100.0
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Edward Norton",
+          "rank": 4,
+          "pct": 77.78
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Steve Buscemi",
+          "rank": 5,
+          "pct": 44.44
+        }
+      ],
+      "Best Adapted Screenplay": [
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 3,
+          "pct": 88.89
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 4,
+          "pct": 88.89
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 5,
+          "pct": 55.56
+        }
+      ],
+      "Best Original Screenplay": [
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 3,
+          "pct": 77.78
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Club Kid",
+          "rank": 4,
+          "pct": 66.67
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 5,
+          "pct": 66.67
+        }
+      ],
+      "Best Animated Feature": [
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "Iron Boy",
+          "candidate": "Iron Boy",
+          "rank": 3,
+          "pct": 88.89
+        },
+        {
+          "film": "Hoppers",
+          "candidate": "Hoppers",
+          "rank": 4,
+          "pct": 66.67
+        },
+        {
+          "film": "Tangles",
+          "candidate": "Tangles",
+          "rank": 5,
+          "pct": 55.56
+        }
+      ]
+    },
+    "experts": {
+      "Best Picture": [
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 3,
+          "pct": 96.43
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 4,
+          "pct": 92.86
+        },
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 5,
+          "pct": 89.29
+        },
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 6,
+          "pct": 88.89
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Dune: Part Three",
+          "rank": 7,
+          "pct": 81.48
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 8,
+          "pct": 51.85
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 9,
+          "pct": 48.15
+        },
+        {
+          "film": "Digger",
+          "candidate": "Digger",
+          "rank": 10,
+          "pct": 40.74
+        },
+        {
+          "film": "I Play Rocky",
+          "candidate": "I Play Rocky",
+          "rank": 11,
+          "pct": 40.74
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Elsinore",
+          "rank": 12,
+          "pct": 40.74
+        },
+        {
+          "film": "Behemoth!",
+          "candidate": "Behemoth!",
+          "rank": 13,
+          "pct": 25.93
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Club Kid",
+          "rank": 14,
+          "pct": 22.22
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 15,
+          "pct": 18.52
+        },
+        {
+          "film": "Being Heumann",
+          "candidate": "Being Heumann",
+          "rank": 16,
+          "pct": 11.11
+        },
+        {
+          "film": "Possible Love",
+          "candidate": "Possible Love",
+          "rank": 17,
+          "pct": 11.11
+        },
+        {
+          "film": "Artificial",
+          "candidate": "Artificial",
+          "rank": 18,
+          "pct": 7.41
+        },
+        {
+          "film": "Michael",
+          "candidate": "Michael",
+          "rank": 19,
+          "pct": 3.7
+        },
+        {
+          "film": "Minotaur",
+          "candidate": "Minotaur",
+          "rank": 20,
+          "pct": 3.7
+        },
+        {
+          "film": "Paper Tiger",
+          "candidate": "Paper Tiger",
+          "rank": 21,
+          "pct": 3.7
+        },
+        {
+          "film": "Tony",
+          "candidate": "Tony",
+          "rank": 22,
+          "pct": 3.7
+        },
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 23,
+          "pct": 3.7
+        },
+        {
+          "film": "Tuner",
+          "candidate": "Tuner",
+          "rank": 24,
+          "pct": 3.7
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Tender Loving Care",
+          "rank": 25,
+          "pct": 3.7
+        },
+        {
+          "film": "The Sheep Detectives",
+          "candidate": "The Sheep Detectives",
+          "rank": 26,
+          "pct": 3.7
+        },
+        {
+          "film": "Ink",
+          "candidate": "Ink",
+          "rank": 27,
+          "pct": 3.7
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Primetime",
+          "rank": 28,
+          "pct": 0.0
+        },
+        {
+          "film": "The Further Mis-Adventures of Cliff Booth",
+          "candidate": "The Further Mis-Adventures of Cliff Booth",
+          "rank": 29,
+          "pct": 0.0
+        },
+        {
+          "film": "Backrooms",
+          "candidate": "Backrooms",
+          "rank": 30,
+          "pct": 0.0
+        },
+        {
+          "film": "Bitter Christmas",
+          "candidate": "Bitter Christmas",
+          "rank": 31,
+          "pct": 0.0
+        },
+        {
+          "film": "The Christophers",
+          "candidate": "The Christophers",
+          "rank": 32,
+          "pct": 0.0
+        },
+        {
+          "film": "Clarissa",
+          "candidate": "Clarissa",
+          "rank": 33,
+          "pct": 0.0
+        },
+        {
+          "film": "Couture",
+          "candidate": "Couture",
+          "rank": 34,
+          "pct": 0.0
+        },
+        {
+          "film": "Coward",
+          "candidate": "Coward",
+          "rank": 35,
+          "pct": 0.0
+        },
+        {
+          "film": "The Devil Wears Prada 2",
+          "candidate": "The Devil Wears Prada 2",
+          "rank": 36,
+          "pct": 0.0
+        },
+        {
+          "film": "Disclosure Day",
+          "candidate": "Disclosure Day",
+          "rank": 37,
+          "pct": 0.0
+        },
+        {
+          "film": "The Dog Stars",
+          "candidate": "The Dog Stars",
+          "rank": 38,
+          "pct": 0.0
+        },
+        {
+          "film": "The Drama",
+          "candidate": "The Drama",
+          "rank": 39,
+          "pct": 0.0
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Fatherland",
+          "rank": 40,
+          "pct": 0.0
+        },
+        {
+          "film": "Forgotten Island",
+          "candidate": "Forgotten Island",
+          "rank": 41,
+          "pct": 0.0
+        },
+        {
+          "film": "Gentle Monster",
+          "candidate": "Gentle Monster",
+          "rank": 42,
+          "pct": 0.0
+        },
+        {
+          "film": "Glenrothan",
+          "candidate": "Glenrothan",
+          "rank": 43,
+          "pct": 0.0
+        },
+        {
+          "film": "Her Private Hell",
+          "candidate": "Her Private Hell",
+          "rank": 44,
+          "pct": 0.0
+        },
+        {
+          "film": "Hope",
+          "candidate": "Hope",
+          "rank": 45,
+          "pct": 0.0
+        },
+        {
+          "film": "I Love Boosters",
+          "candidate": "I Love Boosters",
+          "rank": 46,
+          "pct": 0.0
+        },
+        {
+          "film": "In the Hand of Dante",
+          "candidate": "In the Hand of Dante",
+          "rank": 47,
+          "pct": 0.0
+        },
+        {
+          "film": "Is God Is",
+          "candidate": "Is God Is",
+          "rank": 48,
+          "pct": 0.0
+        },
+        {
+          "film": "I Swear",
+          "candidate": "I Swear",
+          "rank": 49,
+          "pct": 0.0
+        },
+        {
+          "film": "Josephine",
+          "candidate": "Josephine",
+          "rank": 50,
+          "pct": 0.0
+        },
+        {
+          "film": "Klara and the Sun",
+          "candidate": "Klara and the Sun",
+          "rank": 51,
+          "pct": 0.0
+        },
+        {
+          "film": "Late Fame",
+          "candidate": "Late Fame",
+          "rank": 52,
+          "pct": 0.0
+        },
+        {
+          "film": "Madden",
+          "candidate": "Madden",
+          "rank": 53,
+          "pct": 0.0
+        },
+        {
+          "film": "Mother Mary",
+          "candidate": "Mother Mary",
+          "rank": 54,
+          "pct": 0.0
+        },
+        {
+          "film": "Never After Dark",
+          "candidate": "Never After Dark",
+          "rank": 55,
+          "pct": 0.0
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "The Only Living Pickpocket in New York",
+          "rank": 56,
+          "pct": 0.0
+        },
+        {
+          "film": "Pressure",
+          "candidate": "Pressure",
+          "rank": 57,
+          "pct": 0.0
+        },
+        {
+          "film": "Sense and Sensibility",
+          "candidate": "Sense and Sensibility",
+          "rank": 58,
+          "pct": 0.0
+        },
+        {
+          "film": "The Social Reckoning",
+          "candidate": "The Social Reckoning",
+          "rank": 59,
+          "pct": 0.0
+        },
+        {
+          "film": "A Talent for Murder",
+          "candidate": "A Talent for Murder",
+          "rank": 60,
+          "pct": 0.0
+        },
+        {
+          "film": "The Unknown",
+          "candidate": "The Unknown",
+          "rank": 61,
+          "pct": 0.0
+        },
+        {
+          "film": "The Uprising",
+          "candidate": "The Uprising",
+          "rank": 62,
+          "pct": 0.0
+        },
+        {
+          "film": "Verity",
+          "candidate": "Verity",
+          "rank": 63,
+          "pct": 0.0
+        },
+        {
+          "film": "The Weight",
+          "candidate": "The Weight",
+          "rank": 64,
+          "pct": 0.0
+        },
+        {
+          "film": "Werwulf",
+          "candidate": "Werwulf",
+          "rank": 65,
+          "pct": 0.0
+        },
+        {
+          "film": "Whalefall",
+          "candidate": "Whalefall",
+          "rank": 66,
+          "pct": 0.0
+        },
+        {
+          "film": "Wicker",
+          "candidate": "Wicker",
+          "rank": 67,
+          "pct": 0.0
+        },
+        {
+          "film": "The Wizard of the Kremlin",
+          "candidate": "The Wizard of the Kremlin",
+          "rank": 68,
+          "pct": 0.0
+        },
+        {
+          "film": "Wuthering Heights",
+          "candidate": "Wuthering Heights",
+          "rank": 69,
+          "pct": 0.0
+        },
+        {
+          "film": "The Liberation",
+          "candidate": "The Liberation",
+          "rank": 70,
+          "pct": 0.0
+        },
+        {
+          "film": "Bedford Park",
+          "candidate": "Bedford Park",
+          "rank": 71,
+          "pct": 0.0
+        },
+        {
+          "film": "Gail Daughtry and the Celebrity Sex Pass",
+          "candidate": "Gail Daughtry and the Celebrity Sex Pass",
+          "rank": 72,
+          "pct": 0.0
+        },
+        {
+          "film": "The Get Out",
+          "candidate": "The Get Out",
+          "rank": 73,
+          "pct": 0.0
+        },
+        {
+          "film": "Ha-Chan, Shake Your Booty!",
+          "candidate": "Ha-Chan, Shake Your Booty!",
+          "rank": 74,
+          "pct": 0.0
+        },
+        {
+          "film": "Teenage Sex and Death at Camp Miasma",
+          "candidate": "Teenage Sex and Death at Camp Miasma",
+          "rank": 75,
+          "pct": 0.0
+        },
+        {
+          "film": "Misty Green",
+          "candidate": "Misty Green",
+          "rank": 76,
+          "pct": 0.0
+        },
+        {
+          "film": "Rose",
+          "candidate": "Rose",
+          "rank": 77,
+          "pct": 0.0
+        },
+        {
+          "film": "Spider-Man: Brand New Day",
+          "candidate": "Spider-Man: Brand New Day",
+          "rank": 78,
+          "pct": 0.0
+        },
+        {
+          "film": "Ebenezer",
+          "candidate": "Ebenezer",
+          "rank": 79,
+          "pct": 0.0
+        },
+        {
+          "film": "Prima Facie",
+          "candidate": "Prima Facie",
+          "rank": 80,
+          "pct": 0.0
+        },
+        {
+          "film": "Your Mother Your Mother Your Mother",
+          "candidate": "Your Mother Your Mother Your Mother",
+          "rank": 81,
+          "pct": 0.0
+        },
+        {
+          "film": "You Can See Everything",
+          "candidate": "You Can See Everything",
+          "rank": 82,
+          "pct": 0.0
+        },
+        {
+          "film": "Bunker",
+          "candidate": "Bunker",
+          "rank": 83,
+          "pct": 0.0
+        },
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 84,
+          "pct": 0.0
+        },
+        {
+          "film": "Tenzing",
+          "candidate": "Tenzing",
+          "rank": 85,
+          "pct": 0.0
+        },
+        {
+          "film": "A Long Winter",
+          "candidate": "A Long Winter",
+          "rank": 86,
+          "pct": 0.0
+        },
+        {
+          "film": "Long Day's Journey into Night",
+          "candidate": "Long Day's Journey into Night",
+          "rank": 87,
+          "pct": 0.0
+        },
+        {
+          "film": "La Gradiva",
+          "candidate": "La Gradiva",
+          "rank": 88,
+          "pct": 0.0
+        }
+      ],
+      "Best Director": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Christopher Nolan",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Martin McDonagh",
+          "rank": 2,
+          "pct": 92.0
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Javier Ambrossi, Javier Calvo",
+          "rank": 3,
+          "pct": 84.0
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 4,
+          "pct": 64.0
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Denis Villeneuve",
+          "rank": 5,
+          "pct": 36.0
+        }
+      ],
+      "Best Actress": [
+        {
+          "film": "The Debut",
+          "candidate": "Julianne Moore",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 2,
+          "pct": 80.0
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Inde Navarrette",
+          "rank": 3,
+          "pct": 72.0
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Sandra Hüller",
+          "rank": 4,
+          "pct": 52.0
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Renate Reinsve",
+          "rank": 5,
+          "pct": 48.0
+        }
+      ],
+      "Best Actor": [
+        {
+          "film": "Elsinore",
+          "candidate": "Andrew Scott",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "John Malkovich",
+          "rank": 2,
+          "pct": 96.3
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Matt Damon",
+          "rank": 3,
+          "pct": 88.89
+        },
+        {
+          "film": "Digger",
+          "candidate": "Tom Cruise",
+          "rank": 4,
+          "pct": 62.96
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Ryan Gosling",
+          "rank": 5,
+          "pct": 40.74
+        }
+      ],
+      "Best Supporting Actress": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Anne Hathaway",
+          "rank": 1,
+          "pct": 92.59
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Samantha Morton",
+          "rank": 2,
+          "pct": 85.19
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Penelope Cruz",
+          "rank": 3,
+          "pct": 66.67
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Penelope Cruz",
+          "rank": 4,
+          "pct": 51.85
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Tao Okamoto",
+          "rank": 5,
+          "pct": 40.74
+        }
+      ],
+      "Best Supporting Actor": [
+        {
+          "film": "The Debut",
+          "candidate": "Paul Giamatti",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Sam Rockwell",
+          "rank": 2,
+          "pct": 96.3
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Edward Norton",
+          "rank": 3,
+          "pct": 70.37
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "John Leguizamo",
+          "rank": 4,
+          "pct": 70.37
+        },
+        {
+          "film": "Digger",
+          "candidate": "John Goodman",
+          "rank": 5,
+          "pct": 33.33
+        }
+      ],
+      "Best Adapted Screenplay": [
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 2,
+          "pct": 92.0
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 3,
+          "pct": 92.0
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 4,
+          "pct": 88.0
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 5,
+          "pct": 32.0
+        }
+      ],
+      "Best Original Screenplay": [
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 2,
+          "pct": 92.31
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 3,
+          "pct": 76.92
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 4,
+          "pct": 57.69
+        },
+        {
+          "film": "Digger",
+          "candidate": "Digger",
+          "rank": 5,
+          "pct": 46.15
+        }
+      ],
+      "Best Animated Feature": [
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 1,
+          "pct": 100.0
+        },
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 2,
+          "pct": 100.0
+        },
+        {
+          "film": "Hoppers",
+          "candidate": "Hoppers",
+          "rank": 3,
+          "pct": 65.38
+        },
+        {
+          "film": "Iron Boy",
+          "candidate": "Iron Boy",
+          "rank": 4,
+          "pct": 61.54
+        },
+        {
+          "film": "Tangles",
+          "candidate": "Tangles",
+          "rank": 5,
+          "pct": 53.85
+        }
+      ]
+    },
+    "combined": {
+      "Best Picture": [
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 1,
+          "pct": 90.21
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 2,
+          "pct": 88.46
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 3,
+          "pct": 88.23
+        },
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 4,
+          "pct": 86.62
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 5,
+          "pct": 83.56
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Dune: Part Three",
+          "rank": 6,
+          "pct": 81.12
+        },
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 7,
+          "pct": 80.35
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 8,
+          "pct": 52.45
+        },
+        {
+          "film": "Digger",
+          "candidate": "Digger",
+          "rank": 9,
+          "pct": 51.99
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 10,
+          "pct": 47.09
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 11,
+          "pct": 39.3
+        },
+        {
+          "film": "Behemoth!",
+          "candidate": "Behemoth!",
+          "rank": 12,
+          "pct": 28.44
+        },
+        {
+          "film": "I Play Rocky",
+          "candidate": "I Play Rocky",
+          "rank": 13,
+          "pct": 20.87
+        },
+        {
+          "film": "Being Heumann",
+          "candidate": "Being Heumann",
+          "rank": 14,
+          "pct": 17.81
+        },
+        {
+          "film": "Artificial",
+          "candidate": "Artificial",
+          "rank": 15,
+          "pct": 12.61
+        },
+        {
+          "film": "Michael",
+          "candidate": "Michael",
+          "rank": 16,
+          "pct": 12.0
+        },
+        {
+          "film": "Club Kid",
+          "candidate": "Club Kid",
+          "rank": 17,
+          "pct": 9.94
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Elsinore",
+          "rank": 18,
+          "pct": 8.33
+        },
+        {
+          "film": "You Can See Everything",
+          "candidate": "You Can See Everything",
+          "rank": 19,
+          "pct": 6.5
+        },
+        {
+          "film": "Possible Love",
+          "candidate": "Possible Love",
+          "rank": 20,
+          "pct": 5.28
+        },
+        {
+          "film": "Ink",
+          "candidate": "Ink",
+          "rank": 21,
+          "pct": 4.59
+        },
+        {
+          "film": "The Social Reckoning",
+          "candidate": "The Social Reckoning",
+          "rank": 22,
+          "pct": 3.82
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Primetime",
+          "rank": 23,
+          "pct": 2.68
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Fatherland",
+          "rank": 24,
+          "pct": 2.6
+        },
+        {
+          "film": "Josephine",
+          "candidate": "Josephine",
+          "rank": 25,
+          "pct": 2.37
+        },
+        {
+          "film": "The Further Mis-Adventures of Cliff Booth",
+          "candidate": "The Further Mis-Adventures of Cliff Booth",
+          "rank": 26,
+          "pct": 2.29
+        },
+        {
+          "film": "Tender Loving Care",
+          "candidate": "Tender Loving Care",
+          "rank": 27,
+          "pct": 2.06
+        },
+        {
+          "film": "Sense and Sensibility",
+          "candidate": "Sense and Sensibility",
+          "rank": 28,
+          "pct": 1.45
+        },
+        {
+          "film": "Paper Tiger",
+          "candidate": "Paper Tiger",
+          "rank": 29,
+          "pct": 1.15
+        },
+        {
+          "film": "Werwulf",
+          "candidate": "Werwulf",
+          "rank": 30,
+          "pct": 0.69
+        },
+        {
+          "film": "Minotaur",
+          "candidate": "Minotaur",
+          "rank": 31,
+          "pct": 0.61
+        },
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 32,
+          "pct": 0.61
+        },
+        {
+          "film": "Backrooms",
+          "candidate": "Backrooms",
+          "rank": 33,
+          "pct": 0.54
+        },
+        {
+          "film": "I Swear",
+          "candidate": "I Swear",
+          "rank": 34,
+          "pct": 0.46
+        },
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 35,
+          "pct": 0.46
+        },
+        {
+          "film": "Teenage Sex and Death at Camp Miasma",
+          "candidate": "Teenage Sex and Death at Camp Miasma",
+          "rank": 36,
+          "pct": 0.46
+        },
+        {
+          "film": "Your Mother Your Mother Your Mother",
+          "candidate": "Your Mother Your Mother Your Mother",
+          "rank": 37,
+          "pct": 0.46
+        },
+        {
+          "film": "The Devil Wears Prada 2",
+          "candidate": "The Devil Wears Prada 2",
+          "rank": 38,
+          "pct": 0.38
+        },
+        {
+          "film": "The Drama",
+          "candidate": "The Drama",
+          "rank": 39,
+          "pct": 0.38
+        },
+        {
+          "film": "Tony",
+          "candidate": "Tony",
+          "rank": 40,
+          "pct": 0.38
+        },
+        {
+          "film": "Spider-Man: Brand New Day",
+          "candidate": "Spider-Man: Brand New Day",
+          "rank": 41,
+          "pct": 0.38
+        },
+        {
+          "film": "Disclosure Day",
+          "candidate": "Disclosure Day",
+          "rank": 42,
+          "pct": 0.31
+        },
+        {
+          "film": "Pressure",
+          "candidate": "Pressure",
+          "rank": 43,
+          "pct": 0.31
+        },
+        {
+          "film": "Misty Green",
+          "candidate": "Misty Green",
+          "rank": 44,
+          "pct": 0.31
+        },
+        {
+          "film": "Clarissa",
+          "candidate": "Clarissa",
+          "rank": 45,
+          "pct": 0.23
+        },
+        {
+          "film": "Tuner",
+          "candidate": "Tuner",
+          "rank": 46,
+          "pct": 0.23
+        },
+        {
+          "film": "The Sheep Detectives",
+          "candidate": "The Sheep Detectives",
+          "rank": 47,
+          "pct": 0.23
+        },
+        {
+          "film": "Long Day's Journey into Night",
+          "candidate": "Long Day's Journey into Night",
+          "rank": 48,
+          "pct": 0.23
+        },
+        {
+          "film": "Is God Is",
+          "candidate": "Is God Is",
+          "rank": 49,
+          "pct": 0.15
+        },
+        {
+          "film": "Mother Mary",
+          "candidate": "Mother Mary",
+          "rank": 50,
+          "pct": 0.15
+        },
+        {
+          "film": "Wuthering Heights",
+          "candidate": "Wuthering Heights",
+          "rank": 51,
+          "pct": 0.15
+        },
+        {
+          "film": "Coward",
+          "candidate": "Coward",
+          "rank": 52,
+          "pct": 0.08
+        },
+        {
+          "film": "Gentle Monster",
+          "candidate": "Gentle Monster",
+          "rank": 53,
+          "pct": 0.08
+        },
+        {
+          "film": "Late Fame",
+          "candidate": "Late Fame",
+          "rank": 54,
+          "pct": 0.08
+        },
+        {
+          "film": "The Only Living Pickpocket in New York",
+          "candidate": "The Only Living Pickpocket in New York",
+          "rank": 55,
+          "pct": 0.08
+        },
+        {
+          "film": "The Unknown",
+          "candidate": "The Unknown",
+          "rank": 56,
+          "pct": 0.08
+        },
+        {
+          "film": "The Weight",
+          "candidate": "The Weight",
+          "rank": 57,
+          "pct": 0.08
+        },
+        {
+          "film": "Whalefall",
+          "candidate": "Whalefall",
+          "rank": 58,
+          "pct": 0.08
+        },
+        {
+          "film": "Wicker",
+          "candidate": "Wicker",
+          "rank": 59,
+          "pct": 0.08
+        },
+        {
+          "film": "Bedford Park",
+          "candidate": "Bedford Park",
+          "rank": 60,
+          "pct": 0.08
+        },
+        {
+          "film": "Gail Daughtry and the Celebrity Sex Pass",
+          "candidate": "Gail Daughtry and the Celebrity Sex Pass",
+          "rank": 61,
+          "pct": 0.08
+        },
+        {
+          "film": "Ha-Chan, Shake Your Booty!",
+          "candidate": "Ha-Chan, Shake Your Booty!",
+          "rank": 62,
+          "pct": 0.08
+        },
+        {
+          "film": "Rose",
+          "candidate": "Rose",
+          "rank": 63,
+          "pct": 0.08
+        },
+        {
+          "film": "Ebenezer",
+          "candidate": "Ebenezer",
+          "rank": 64,
+          "pct": 0.08
+        },
+        {
+          "film": "Prima Facie",
+          "candidate": "Prima Facie",
+          "rank": 65,
+          "pct": 0.08
+        },
+        {
+          "film": "A Long Winter",
+          "candidate": "A Long Winter",
+          "rank": 66,
+          "pct": 0.08
+        },
+        {
+          "film": "Bitter Christmas",
+          "candidate": "Bitter Christmas",
+          "rank": 67,
+          "pct": 0.0
+        },
+        {
+          "film": "The Christophers",
+          "candidate": "The Christophers",
+          "rank": 68,
+          "pct": 0.0
+        },
+        {
+          "film": "Couture",
+          "candidate": "Couture",
+          "rank": 69,
+          "pct": 0.0
+        },
+        {
+          "film": "The Dog Stars",
+          "candidate": "The Dog Stars",
+          "rank": 70,
+          "pct": 0.0
+        },
+        {
+          "film": "Forgotten Island",
+          "candidate": "Forgotten Island",
+          "rank": 71,
+          "pct": 0.0
+        },
+        {
+          "film": "Glenrothan",
+          "candidate": "Glenrothan",
+          "rank": 72,
+          "pct": 0.0
+        },
+        {
+          "film": "Her Private Hell",
+          "candidate": "Her Private Hell",
+          "rank": 73,
+          "pct": 0.0
+        },
+        {
+          "film": "Hope",
+          "candidate": "Hope",
+          "rank": 74,
+          "pct": 0.0
+        },
+        {
+          "film": "I Love Boosters",
+          "candidate": "I Love Boosters",
+          "rank": 75,
+          "pct": 0.0
+        },
+        {
+          "film": "In the Hand of Dante",
+          "candidate": "In the Hand of Dante",
+          "rank": 76,
+          "pct": 0.0
+        },
+        {
+          "film": "Klara and the Sun",
+          "candidate": "Klara and the Sun",
+          "rank": 77,
+          "pct": 0.0
+        },
+        {
+          "film": "Madden",
+          "candidate": "Madden",
+          "rank": 78,
+          "pct": 0.0
+        },
+        {
+          "film": "Never After Dark",
+          "candidate": "Never After Dark",
+          "rank": 79,
+          "pct": 0.0
+        },
+        {
+          "film": "A Talent for Murder",
+          "candidate": "A Talent for Murder",
+          "rank": 80,
+          "pct": 0.0
+        },
+        {
+          "film": "The Uprising",
+          "candidate": "The Uprising",
+          "rank": 81,
+          "pct": 0.0
+        },
+        {
+          "film": "Verity",
+          "candidate": "Verity",
+          "rank": 82,
+          "pct": 0.0
+        },
+        {
+          "film": "The Wizard of the Kremlin",
+          "candidate": "The Wizard of the Kremlin",
+          "rank": 83,
+          "pct": 0.0
+        },
+        {
+          "film": "The Liberation",
+          "candidate": "The Liberation",
+          "rank": 84,
+          "pct": 0.0
+        },
+        {
+          "film": "The Get Out",
+          "candidate": "The Get Out",
+          "rank": 85,
+          "pct": 0.0
+        },
+        {
+          "film": "Bunker",
+          "candidate": "Bunker",
+          "rank": 86,
+          "pct": 0.0
+        },
+        {
+          "film": "Tenzing",
+          "candidate": "Tenzing",
+          "rank": 87,
+          "pct": 0.0
+        },
+        {
+          "film": "La Gradiva",
+          "candidate": "La Gradiva",
+          "rank": 88,
+          "pct": 0.0
+        }
+      ],
+      "Best Director": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Christopher Nolan",
+          "rank": 1,
+          "pct": 89.7
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Javier Ambrossi, Javier Calvo",
+          "rank": 2,
+          "pct": 83.32
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Martin McDonagh",
+          "rank": 3,
+          "pct": 79.89
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 4,
+          "pct": 67.6
+        },
+        {
+          "film": "Dune: Part Three",
+          "candidate": "Denis Villeneuve",
+          "rank": 5,
+          "pct": 39.98
+        }
+      ],
+      "Best Actress": [
+        {
+          "film": "The Debut",
+          "candidate": "Julianne Moore",
+          "rank": 1,
+          "pct": 89.74
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Inde Navarrette",
+          "rank": 2,
+          "pct": 78.07
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Olivia Wilde",
+          "rank": 3,
+          "pct": 74.49
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Renate Reinsve",
+          "rank": 4,
+          "pct": 52.57
+        },
+        {
+          "film": "Fatherland",
+          "candidate": "Sandra Hüller",
+          "rank": 5,
+          "pct": 38.65
+        }
+      ],
+      "Best Actor": [
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "John Malkovich",
+          "rank": 1,
+          "pct": 88.22
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Matt Damon",
+          "rank": 2,
+          "pct": 84.65
+        },
+        {
+          "film": "Elsinore",
+          "candidate": "Andrew Scott",
+          "rank": 3,
+          "pct": 75.58
+        },
+        {
+          "film": "Digger",
+          "candidate": "Tom Cruise",
+          "rank": 4,
+          "pct": 66.98
+        },
+        {
+          "film": "Primetime",
+          "candidate": "Robert Pattinson",
+          "rank": 5,
+          "pct": 51.32
+        }
+      ],
+      "Best Supporting Actress": [
+        {
+          "film": "The Odyssey",
+          "candidate": "Anne Hathaway",
+          "rank": 1,
+          "pct": 87.33
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "Penelope Cruz",
+          "rank": 2,
+          "pct": 77.69
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "Samantha Morton",
+          "rank": 3,
+          "pct": 75.22
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "Tao Okamoto",
+          "rank": 4,
+          "pct": 51.31
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Mariana Di Girolamo",
+          "rank": 5,
+          "pct": 45.5
+        }
+      ],
+      "Best Supporting Actor": [
+        {
+          "film": "The Debut",
+          "candidate": "Paul Giamatti",
+          "rank": 1,
+          "pct": 88.15
+        },
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Sam Rockwell",
+          "rank": 2,
+          "pct": 84.98
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "John Leguizamo",
+          "rank": 3,
+          "pct": 72.4
+        },
+        {
+          "film": "The Invite",
+          "candidate": "Edward Norton",
+          "rank": 4,
+          "pct": 62.91
+        },
+        {
+          "film": "Digger",
+          "candidate": "John Goodman",
+          "rank": 5,
+          "pct": 56.01
+        }
+      ],
+      "Best Adapted Screenplay": [
+        {
+          "film": "The Invite",
+          "candidate": "The Invite",
+          "rank": 1,
+          "pct": 87.95
+        },
+        {
+          "film": "La Bola Negra",
+          "candidate": "La Bola Negra",
+          "rank": 2,
+          "pct": 87.5
+        },
+        {
+          "film": "The Odyssey",
+          "candidate": "The Odyssey",
+          "rank": 3,
+          "pct": 84.46
+        },
+        {
+          "film": "Project Hail Mary",
+          "candidate": "Project Hail Mary",
+          "rank": 4,
+          "pct": 78.48
+        },
+        {
+          "film": "All of a Sudden",
+          "candidate": "All of a Sudden",
+          "rank": 5,
+          "pct": 59.11
+        }
+      ],
+      "Best Original Screenplay": [
+        {
+          "film": "Wild Horse Nine",
+          "candidate": "Wild Horse Nine",
+          "rank": 1,
+          "pct": 89.24
+        },
+        {
+          "film": "The Debut",
+          "candidate": "The Debut",
+          "rank": 2,
+          "pct": 88.27
+        },
+        {
+          "film": "Fjord",
+          "candidate": "Fjord",
+          "rank": 3,
+          "pct": 68.17
+        },
+        {
+          "film": "Obsession",
+          "candidate": "Obsession",
+          "rank": 4,
+          "pct": 67.37
+        },
+        {
+          "film": "Digger",
+          "candidate": "Digger",
+          "rank": 5,
+          "pct": 53.35
+        }
+      ],
+      "Best Animated Feature": [
+        {
+          "film": "Wildwood",
+          "candidate": "Wildwood",
+          "rank": 1,
+          "pct": 89.72
+        },
+        {
+          "film": "Toy Story 5",
+          "candidate": "Toy Story 5",
+          "rank": 2,
+          "pct": 88.99
+        },
+        {
+          "film": "Hoppers",
+          "candidate": "Hoppers",
+          "rank": 3,
+          "pct": 75.61
+        },
+        {
+          "film": "Iron Boy",
+          "candidate": "Iron Boy",
+          "rank": 4,
+          "pct": 62.23
+        },
+        {
+          "film": "Tangles",
+          "candidate": "Tangles",
+          "rank": 5,
+          "pct": 53.67
+        }
+      ]
+    }
+  }
+}
