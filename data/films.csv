@@ -2,6 +2,7 @@ film,tmdb_id,poster_path,certification,premiere_date,theatrical_date,theatrical_
 28 Years Later: The Bone Temple,1272837,/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg,R,,2026-01-16,wide,2026-02-17,,,tmdb
 A Long Winter,1534221,/dHeu7wMp9A5BuSJZvOi7gKBMilv.jpg,,2026-09-04,2026-12-04,limited,,,Premiere: Telluride Film Festival; Also wide 2027-01-22,tmdb
 A Place in Hell,1437882,/4gSgzVw59vhegejEh1yMMfStXsU.jpg,R,,2026-12-25,wide,,,,tmdb
+A Statement,1618090,/6eGKmCHwnwWqaKkoRsrBfCtkHKf.jpg,,2026-10-03,,,,,Premiere: New York Film Festival,tmdb
 A Talent for Murder,1084409,/9NyudoVzIHqVD5p5l9Zrn0iaoba.jpg,R,2026-09-27,2026-10-23,wide,,,Premiere: Nashville Film Festival,tmdb
 All of a Sudden,1476614,/bjKbSnsDlDdi3E2Ln6Aq80s8Pwl.jpg,PG-13,2026-10-01,2026-11-25,limited,,,Premiere: New York Film Festival,tmdb
 All You Need Is Kill,1432547,/kznh3ACnXYVyyAYes7JN6i1wy2d.jpg,R,2025-10-10,2026-01-16,wide,2026-04-14,,Premiere: New York Comic Con,tmdb
@@ -25,7 +26,7 @@ Dune: Part Three,1170608,/d43fvHQsIMa4kpyhKXw0haEJIvI.jpg,PG-13,,2026-12-18,wide
 Ebenezer,1567605,/wmuMZrelOQBAN2KlA30yOIeIUJl.jpg,,,2026-11-13,wide,,,,tmdb
 Elsinore,1599230,/oX1wG1oO5kHnI8T5oxybjpR3prS.jpg,,2026-09-04,2026-11-20,limited,,,Premiere: Telluride Film Festival,tmdb
 Fatherland,1437696,/oNejN1l69nBF8LdQwy5FkAQZT44.jpg,,2026-09-05,2026-10-23,limited,,,Premiere: Telluride Film Festival; Also wide 2026-11-06,tmdb
-Fjord,1401459,/9jXtRN8qCcoBjj2GGSJcyHMI8Id.jpg,R,2026-09-05,2026-10-09,limited,,,Premiere: Telluride Film Festival,tmdb
+Fjord,1401459,/9jXtRN8qCcoBjj2GGSJcyHMI8Id.jpg,R,2026-09-05,2026-10-09,limited,,,Premiere: Telluride Film Festival; Also wide 2026-10-23,tmdb
 Forgotten Island,1465063,/kW1fH2jZZM5tVHwNaDdUOUXJvWU.jpg,PG,2026-09-04,2026-09-25,wide,2026-10-27,,Premiere: Manila International Film Festival,tmdb
 Gail Daughtry and the Celebrity Sex Pass,1476682,/98T4bnMjJs71WOVZoeY8edZhfgZ.jpg,R,2026-01-25,2026-07-10,wide,2026-08-11,,Premiere: Sundance Film Festival,tmdb
 Gentle Monster,1473148,/rv3PprTMvEf317skaiTeEYAfJcr.jpg,R,2026-09-05,2026-10-30,limited,2026-11-18,Netflix,Premiere: Telluride Film Festival,tmdb
@@ -47,7 +48,7 @@ Iron Boy,947493,/aXNm7mgW22mxCSwSV7i7GHjy6Ga.jpg,,2026-09-26,2027-01-22,limited,
 Is God Is,1380316,/rCYQGHdoz7qwYsb6wXETJfUfDLX.jpg,R,2026-04-27,2026-05-15,wide,2026-06-02,,Premiere: Brooklyn Academy of Music,tmdb
 Josephine,1299329,/eqMWdviWwaRahQ7QkHLpXCpqIfu.jpg,R,2026-01-23,2026-11-20,limited,,,Premiere: Sundance Film Festival; Also wide 2026-12-04,tmdb
 Klara and the Sun,858035,/xqovj2p6HRsgHxN81qYAYF4StgM.jpg,PG-13,,2026-10-23,wide,,,,tmdb
-La Bola Negra,1422041,/iKv3KYVmLtfSyFvynYLyJWjIru3.jpg,R,2026-09-05,2026-10-16,limited,2026-12-02,Netflix,Premiere: Telluride Film Festival,tmdb
+La Bola Negra,1422041,/iKv3KYVmLtfSyFvynYLyJWjIru3.jpg,R,2026-09-05,2026-10-16,limited,2026-12-02,Netflix,Premiere: Telluride Film Festival; Also wide 2026-11-06,tmdb
 La Gradiva,1154730,/y6AkOgTEPM9nTJUOeyvHqlf6Bgp.jpg,,2026-09-27,2026-12-18,limited,,,Premiere: New York Film Festival,tmdb
 Late Fame,1285895,/bcyXE0p4XmZUlcxvTDbvdG9lgsN.jpg,NR,2025-09-28,2026-08-07,limited,2026-10-06,,Premiere: New York Film Festival,tmdb
 Long Day's Journey into Night,1086037,/nFupOsOEWt0Q0olnqugNKR690Hn.jpg,,2025-06-25,2026-09-25,limited,,,Premiere: Nantucket Film Festival,tmdb
@@ -89,10 +90,11 @@ The Get Out,1279493,/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg,R,,2026-06-26,limited,2026-
 The Great Beyond,1688337,/fS9pVIQocso3RtCTzne0s2wESs6.jpg,G,,,,,,,tmdb
 The Invite,950028,/b7Dr8Chzse8VagexAporUu2RtLx.jpg,R,2026-01-24,2026-06-26,limited,2026-08-11,,Premiere: Sundance Film Festival; Also wide 2026-07-10,tmdb
 The Liberation,1129188,/kQvgYd8GaYkoovQZmE8IkbAMg2d.jpg,NR,2023-10-06,2026-03-11,limited,2026-11-17,,Premiere: Hamptons International Film Festival,tmdb
+The Mosquito Bowl,1458300,/yYyakG09lQMhlF3GW0ZCTjnDhah.jpg,R,,2026-10-30,limited,2026-11-25,Netflix,,tmdb
 The Odyssey,1368337,/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg,R,2026-07-14,2026-07-17,wide,2026-11-17,,"Premiere: New York City, New York",tmdb
 The Only Living Pickpocket in New York,1458099,/otJsgLxFhsa43dTknU9NqxdkdP4.jpg,R,2026-01-27,2026-10-23,limited,,,Premiere: Sundance Film Festival; Also wide 2026-10-30,tmdb
 The Sheep Detectives,1301421,/mGWOmj2jHFol3kOGNv1EhbSDDE1.jpg,PG,2026-04-19,2026-05-08,wide,2026-06-24,Prime Video,"Premiere: New York City, New York",tmdb
-The Social Reckoning,1281331,/blm3cRs7avmaHWtPqk6fzj3VIKF.jpg,R,2026-10-22,2026-10-09,wide,,,Premiere: Virginia Film Festival,tmdb
+The Social Reckoning,1281331,/blm3cRs7avmaHWtPqk6fzj3VIKF.jpg,R,2026-10-04,2026-10-09,wide,,,Premiere: New York City,tmdb
 The Super Mario Galaxy Movie,1226863,/eJGWx219ZcEMVQJhAgMiqo8tYY.jpg,PG,,2026-04-01,wide,2026-05-19,,,tmdb
 The Unknown,1182935,/888ksoUkfKSBJHxKp6M9sYpJhv2.jpg,,2026-09-04,,,,,Premiere: Telluride Film Festival,tmdb
 The Uprising,977942,/7TUl15TOsIvndKlgMWTtLgtEzZP.jpg,R,2026-09-02,2026-09-10,wide,2026-09-29,,"Premiere: DGA Theater Complex (Los Angeles, California)",tmdb
