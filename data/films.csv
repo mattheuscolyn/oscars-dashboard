@@ -1,4 +1,5 @@
 film,tmdb_id,poster_path,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source
+14th,1732479,/h8X0aPUFVRFyBQjjxdAKnrt5fcw.jpg,PG-13,2026-10-09,2026-11-27,limited,2026-12-04,Netflix,Premiere: New York Film Festival,tmdb
 28 Years Later: The Bone Temple,1272837,/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg,R,,2026-01-16,wide,2026-02-17,,,tmdb
 A Long Winter,1534221,/dHeu7wMp9A5BuSJZvOi7gKBMilv.jpg,,2026-09-04,2026-12-04,limited,,,Premiere: Telluride Film Festival; Also wide 2027-01-22,tmdb
 A Place in Hell,1437882,/4gSgzVw59vhegejEh1yMMfStXsU.jpg,R,,2026-12-25,wide,,,,tmdb
@@ -6,6 +7,7 @@ A Statement,1618090,/6eGKmCHwnwWqaKkoRsrBfCtkHKf.jpg,,2026-10-03,,,,,Premiere: N
 A Talent for Murder,1084409,/9NyudoVzIHqVD5p5l9Zrn0iaoba.jpg,R,2026-09-27,2026-10-23,wide,,,Premiere: Nashville Film Festival,tmdb
 All of a Sudden,1476614,/bjKbSnsDlDdi3E2Ln6Aq80s8Pwl.jpg,PG-13,2026-10-01,2026-11-25,limited,,,Premiere: New York Film Festival,tmdb
 All You Need Is Kill,1432547,/kznh3ACnXYVyyAYes7JN6i1wy2d.jpg,R,2025-10-10,2026-01-16,wide,2026-04-14,,Premiere: New York Comic Con,tmdb
+American Doctor,1596332,/sOSrlaXvItVdwU1P5Qpttcl12sd.jpg,,2026-01-23,2026-08-14,limited,,,Premiere: Sundance Film Festival,tmdb
 Animal Farm,539745,/6pzI1DIlxwAFffw9OZcG6cr031U.jpg,PG,2025-10-04,2026-05-01,wide,2026-05-26,,Premiere: Mill Valley Film Festival,tmdb
 Another World,1545931,/zhpoQAYDqvSB3DWvxCJA2LF5VRT.jpg,,,,,,,,tmdb
 Artificial,1586108,/pxPmvPaOp1c9XXnsM52a96dlKhB.jpg,,,,,,,,tmdb
@@ -65,9 +67,12 @@ Minions and Monsters,1315772,/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg,PG,,2026-07-01,wid
 Minotaur,848700,/wcxM1Pc8StmtMVTlkk1d62x0VPl.jpg,,2026-09-04,2026-11-20,wide,,,Premiere: Telluride Film Festival,tmdb
 Misty Green,1381221,/qOFIOfZzteCoiOFjXDvqTgBnUTz.jpg,R,2026-09-26,2026-10-09,limited,,,Premiere: New York Film Festival,tmdb
 Mother Mary,1102883,/uVcsN3yoHh7ZcJ6ecj1FJfv7dLa.jpg,R,,2026-04-17,wide,2026-05-19,,,tmdb
+Musk,1096228,/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg,R,2026-09-18,2026-10-09,limited,,,Premiere: Camden International Film Festival; Also wide 2026-10-16,tmdb
+Naza,1755291,/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg,NR,2026-09-26,2026-09-30,limited,,,Premiere: New York Film Festival,tmdb
 Never After Dark,1629051,/4rDgzOCBREeTaqZvTeFtEcnrju8.jpg,,2026-03-13,2026-09-25,limited,,,Premiere: South by Southwest Film & TV Festival,tmdb
 Oasis: Don’t Look Back in Anger,1447853,/5XoHhKZ1IROW6f5UlRpADHnTL2l.jpg,R,,2026-09-11,wide,2026-10-09,Disney+ / Hulu,,tmdb
 Obsession,1339713,/bRwnj8WEKBCvmfeUNOukJPwB43K.jpg,R,2025-09-21,2026-05-15,wide,2026-06-30,,Premiere: Fantastic Fest; Also limited 2026-10-14,tmdb
+Once Upon a Time in Harlem,1596300,/9eukk5gby8NZCwraiC7mloZmasP.jpg,PG-13,2026-01-25,2026-10-16,limited,,,Premiere: Sundance Film Festival,tmdb
 Paper Tiger,1381273,/7XhTjNP3BL8pTtCLcsvIssR9hSf.jpg,R,2026-09-25,2026-11-13,limited,,,Premiere: New York Film Festival; Also wide 2026-11-20,tmdb
 Poetic License,1272162,/zbxwUHpW7F9vjsE1cm6ULTStKoD.jpg,,2026-03-17,,,,,Premiere: South by Southwest Film & TV Festival,tmdb
 Possible Love,1483525,/dLz9yHeLw4x4sD0WTSNi7HuK2ke.jpg,R,2026-09-27,2026-10-23,limited,2026-11-06,Netflix,Premiere: New York Film Festival,tmdb
