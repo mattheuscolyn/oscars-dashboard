@@ -1,0 +1,50 @@
+name: Diagnose Gold Derby contender expansion
+
+on:
+  pull_request:
+    paths:
+      - '.github/workflows/probe-gold-derby.yml'
+      - 'scraper/**'
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          pip install playwright
+          playwright install --with-deps chromium
+      - name: Inspect category controls
+        run: |
+          python - <<'PY'
+          import re
+          from playwright.sync_api import sync_playwright
+          with sync_playwright() as p:
+              browser = p.chromium.launch(headless=True)
+              page = browser.new_page()
+              page.goto('https://www.goldderby.com/odds/combined-odds/oscars-nominations-2027/', wait_until='domcontentloaded')
+              page.wait_for_selector('[data-component="predictions-contestant-item"]',timeout=60000)
+              page.wait_for_timeout(3000)
+              awards = page.locator('[data-component="predictions-award-item"]')
+              print('Total awards:', awards.count(), flush=True)
+              for i in range(awards.count()):
+                  award = awards.nth(i)
+                  h = award.locator('h1,h2,h3,h4,h5,h6').first.inner_text()
+                  n = award.locator('[data-component="predictions-contestant-item"]').count()
+                  controls = award.locator('button, a, [role="button"]').evaluate_all("""els => els.map(e => ({
+                    tag:e.tagName, text:(e.textContent || '').trim().slice(0,80),
+                    alias:e.getAttribute('data-alias'), href:e.getAttribute('href'),
+                    aria:e.getAttribute('aria-label'), cls:(e.className||'').toString().slice(0,90)
+                  })).filter(x => /see all|show all|view all|show more|load more|\\bmore\\b/i.test(x.text+' '+x.aria) || /expand|more|show/i.test(x.alias||'')).slice(0,25)""")
+                  print('CATEGORY:',h,'entries:',n,'controls:',controls,flush=True)
+                  if i == 0:
+                    print('First award outerHTML tail:', award.evaluate('(e) => e.outerHTML.slice(-3000)'),flush=True)
+              browser.close()
+          PY
