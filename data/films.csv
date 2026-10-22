@@ -1,7 +1,7 @@
 film,tmdb_id,poster_path,certification,premiere_date,theatrical_date,theatrical_type,streaming_date,streaming_platform,notes,source
 14th,1732479,/h8X0aPUFVRFyBQjjxdAKnrt5fcw.jpg,R,2026-10-09,2026-11-27,limited,2026-12-04,Netflix,Premiere: New York Film Festival,tmdb
 28 Years Later: The Bone Temple,1272837,/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg,R,,2026-01-16,wide,2026-02-17,,,tmdb
-A Long Winter,1534221,/dHeu7wMp9A5BuSJZvOi7gKBMilv.jpg,,2026-09-04,2026-12-04,limited,,,Premiere: Telluride Film Festival; Also wide 2027-01-22,tmdb
+A Long Winter,1534221,/dHeu7wMp9A5BuSJZvOi7gKBMilv.jpg,R,2026-09-04,2026-12-04,limited,,,Premiere: Telluride Film Festival; Also wide 2027-01-22,tmdb
 A Place in Hell,1437882,/4gSgzVw59vhegejEh1yMMfStXsU.jpg,R,,2026-12-25,wide,,,,tmdb
 A Statement,1618090,/6eGKmCHwnwWqaKkoRsrBfCtkHKf.jpg,,2026-10-03,,,,,Premiere: New York Film Festival,tmdb
 A Talent for Murder,1084409,/9NyudoVzIHqVD5p5l9Zrn0iaoba.jpg,R,2026-09-27,2026-10-23,wide,,,Premiere: Nashville Film Festival,tmdb
@@ -65,7 +65,7 @@ Maserati: The Brothers,1096831,/gea9QG89U94JQQUJElNg1cKo3M0.jpg,,,,,,,,tmdb
 Michael,936075,/zm0KAbOjlt9eR5y7vDiL2dEOwMl.jpg,PG-13,2026-04-20,2026-04-24,wide,2026-06-09,,Premiere: TCL Chinese Theatre,tmdb
 Minions and Monsters,1315772,/4LwvU9SZc8QQzW1X1FAPhNbXnEU.jpg,PG,,2026-07-01,wide,2026-08-11,,,tmdb
 Minotaur,848700,/wcxM1Pc8StmtMVTlkk1d62x0VPl.jpg,,2026-09-04,2026-11-20,wide,,,Premiere: Telluride Film Festival,tmdb
-Misty Green,1381221,/qOFIOfZzteCoiOFjXDvqTgBnUTz.jpg,R,2026-09-26,2026-10-09,limited,,,Premiere: New York Film Festival,tmdb
+Misty Green,1381221,/qOFIOfZzteCoiOFjXDvqTgBnUTz.jpg,R,2026-09-26,2026-10-09,limited,2026-11-09,Netflix,Premiere: New York Film Festival,tmdb
 Mother Mary,1102883,/uVcsN3yoHh7ZcJ6ecj1FJfv7dLa.jpg,R,,2026-04-17,wide,2026-05-19,,,tmdb
 Musk,1096228,/fAyZqyN78VYb0usFgsmYjxZIFcN.jpg,R,2026-09-18,2026-10-09,limited,,,Premiere: Camden International Film Festival; Also wide 2026-10-16,tmdb
 Naza,1755291,/b4Gyj8VRoJAeU13jfKPuOTMr5GL.jpg,NR,2026-09-26,2026-09-30,limited,,,Premiere: New York Film Festival,tmdb
@@ -104,7 +104,7 @@ The Get Out,1279493,/zlkeH0s7dDxcnuPcHBqAyXFUxqN.jpg,R,,2026-06-26,limited,2026-
 The Great Beyond,1688337,/fS9pVIQocso3RtCTzne0s2wESs6.jpg,G,,,,,,,tmdb
 The Invite,950028,/b7Dr8Chzse8VagexAporUu2RtLx.jpg,R,2026-01-24,2026-06-26,limited,2026-08-11,,Premiere: Sundance Film Festival; Also wide 2026-07-10,tmdb
 The Liberation,1129188,/kQvgYd8GaYkoovQZmE8IkbAMg2d.jpg,NR,2023-10-06,2026-03-11,limited,2026-11-17,,Premiere: Hamptons International Film Festival,tmdb
-The Mosquito Bowl,1458300,/yYyakG09lQMhlF3GW0ZCTjnDhah.jpg,R,,2026-10-30,limited,2026-11-25,Netflix,,tmdb
+The Mosquito Bowl,1458300,/yYyakG09lQMhlF3GW0ZCTjnDhah.jpg,R,2026-10-22,2026-10-30,limited,2026-11-25,Netflix,Premiere: AFI Fest,tmdb
 The Odyssey,1368337,/5rhTDKUhPYvpdQIijFIs5VoWsON.jpg,R,2026-07-14,2026-07-17,wide,2026-11-17,,"Premiere: New York City, New York",tmdb
 The Only Living Pickpocket in New York,1458099,/otJsgLxFhsa43dTknU9NqxdkdP4.jpg,R,2026-01-27,2026-10-16,limited,,,Premiere: Sundance Film Festival; Also wide 2026-10-30,tmdb
 The Sheep Detectives,1301421,/mGWOmj2jHFol3kOGNv1EhbSDDE1.jpg,PG,2026-04-19,2026-05-08,wide,2026-06-24,Prime Video,"Premiere: New York City, New York",tmdb
