@@ -31,7 +31,7 @@ RAW_CONTESTANTS_JS = r"""(award) => Array.from(
     (item.querySelector(selector)?.textContent || '').trim();
   const exactRank = Array.from(item.querySelectorAll('span'))
     .map((span) => (span.textContent || '').trim())
-    .find((text) => /^\\d+$/.test(text)) || '';
+    .find((text) => /^\d+$/.test(text)) || '';
   return {
     rank: getText('span[class*="contestantIndex"], [data-alias="predictions-contestant-item__index"]') || exactRank,
     name: getText('[data-alias="predictions-contestant-item__title"]'),
@@ -147,7 +147,7 @@ def _parse_contestant_fields(raw: dict[str, str], category: str) -> dict[str, An
         candidate = name
         film = name
 
-    quotes = "\\\"'" + "\\u201c\\u201d\\u2018\\u2019"
+    quotes = "\"'" + "\u201c\u201d\u2018\u2019"
     film = film.strip().strip(quotes)
     candidate = candidate.strip().strip(quotes)
 
