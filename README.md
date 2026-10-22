@@ -43,6 +43,8 @@ npm run dev
 
 Use `python scrape.py --force` to overwrite today’s snapshot. Use `--headed` to debug the browser.
 
+The scraper expands the **full contender list** in each award category and waits for Gold Derby's asynchronously loaded rows. If expansion fails, it exits without saving an incomplete snapshot. Older snapshots collected before this fix may contain only the top five contenders in some categories; those historical observations are not retroactively reconstructed.
+
 ## Release dates (TMDB)
 
 The daily Action calls TMDB [search](https://developer.themoviedb.org/reference/search-movie) + [release dates](https://developer.themoviedb.org/reference/movie-release-dates) and keeps **United States** rows only:
