@@ -35,24 +35,69 @@ USER_AGENT = (
 
 
 def expand_all_categories(page) -> int:
-    """Click Gold Derby 'See All +' buttons so collapsed longlists load."""
-    buttons = page.locator(
-        '[data-component="predictions-award-item"] [data-alias="expand__show-button"]'
-    )
-    count = buttons.count()
-    clicked = 0
-    for i in range(count):
-        try:
-            btn = buttons.nth(i)
-            if btn.is_visible():
-                btn.click(timeout=2000)
-                clicked += 1
-                page.wait_for_timeout(250)
-        except Exception:
+    """Expand each award's contender list, not the five individual contender cards.
+
+    Every award contains several nested `expand__show-button` controls. The
+    last one belongs to the award's "See All +" list. Iterating a global locator
+    by index is unsafe: expanding one award adds new controls and shifts every
+    later index, silently leaving most awards at five contenders.
+    """
+    awards = page.locator('[data-component="predictions-award-item"]')
+    expanded = 0
+    failures: list[str] = []
+
+    for i in range(awards.count()):
+        award = awards.nth(i)
+        heading = award.locator("h1, h2, h3, h4, h5, h6").first
+        name = (heading.text_content() or "").strip()
+        items = award.locator('[data-component="predictions-contestant-item"]')
+        before = items.count()
+
+        # Contender detail controls precede this category-level See All button.
+        show_all = award.locator('[data-alias="expand__show-button"] button').last
+        if show_all.count() == 0 or not show_all.is_visible():
+            print(f"    {name}: {before} entries (no collapsed list)")
             continue
-    if clicked:
-        page.wait_for_timeout(1500)
-    return clicked
+
+        try:
+            show_all.click(timeout=8_000)
+        except Exception as exc:
+            # A transient overlay can intercept a normal Playwright click.
+            try:
+                show_all.click(force=True, timeout=4_000)
+            except Exception as retry_exc:
+                failures.append(f"{name}: click failed ({retry_exc})")
+                print(f"    {name}: See All click failed: {exc}")
+                continue
+
+        # Gold Derby loads the expanded contenders asynchronously. Do not move
+        # on, or parse the page, until the additional DOM entries have arrived.
+        try:
+            page.wait_for_function(
+                """({index, previousCount}) => {
+                    const section = document.querySelectorAll(
+                      '[data-component="predictions-award-item"]'
+                    )[index];
+                    return !!section && section.querySelectorAll(
+                      '[data-component="predictions-contestant-item"]'
+                    ).length > previousCount;
+                }""",
+                arg={"index": i, "previousCount": before},
+                timeout=12_000,
+            )
+        except Exception:
+            failures.append(f"{name}: still {items.count()} contenders after See All")
+        after = items.count()
+        print(f"    {name}: {before} -> {after} contenders")
+        if after > before:
+            expanded += 1
+
+    if failures:
+        raise RuntimeError(
+            "Gold Derby contender lists were not fully expanded; refusing "
+            "to save a truncated snapshot: " + "; ".join(failures)
+        )
+    return expanded
 
 
 def scrape_all(headless: bool = True) -> dict:
