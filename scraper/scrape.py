@@ -34,68 +34,99 @@ USER_AGENT = (
 )
 
 
-def expand_all_categories(page) -> int:
-    """Expand each award's contender list, not the five individual contender cards.
+# A per-award button is the last matching show control: the other
+# matching buttons are inside its visible contender detail cards.
+AWARD_SHOW_ALL_JS = """(award) => {
+    const buttons = award.querySelectorAll('[data-alias="expand__show-button"] button');
+    const button = buttons[buttons.length - 1];
+    if (!button) return false;
+    button.click();
+    return true;
+}"""
 
-    Every award contains several nested `expand__show-button` controls. The
-    last one belongs to the award's "See All +" list. Iterating a global locator
-    by index is unsafe: expanding one award adds new controls and shifts every
-    later index, silently leaving most awards at five contenders.
+
+def _wait_for_more_contenders(page, index: int, before: int) -> bool:
+    try:
+        page.wait_for_function(
+            """({index, previousCount}) => {
+                const award = document.querySelectorAll(
+                  '[data-component="predictions-award-item"]'
+                )[index];
+                return !!award && award.querySelectorAll(
+                  '[data-component="predictions-contestant-item"]'
+                ).length > previousCount;
+            }""",
+            arg={"index": index, "previousCount": before},
+            timeout=12_000,
+        )
+        return True
+    except Exception:
+        return False
+
+
+def expand_all_categories(page) -> int:
+    """Expand each award's longlist and refuse to silently truncate it.
+
+    A global index over all expansion controls is unsafe because expanding
+    a category inserts many new contender controls and shifts later indexes.
+    Iterate award sections individually and wait for their async data instead.
     """
     awards = page.locator('[data-component="predictions-award-item"]')
     expanded = 0
-    failures: list[str] = []
+    retry: list[tuple[int, str, int]] = []
 
     for i in range(awards.count()):
         award = awards.nth(i)
-        heading = award.locator("h1, h2, h3, h4, h5, h6").first
-        name = (heading.text_content() or "").strip()
+        name = (award.locator("h1, h2, h3, h4, h5, h6").first.text_content() or "").strip()
         items = award.locator('[data-component="predictions-contestant-item"]')
         before = items.count()
+        button = award.locator('[data-alias="expand__show-button"] button').last
 
-        # Contender detail controls precede this category-level See All button.
-        show_all = award.locator('[data-alias="expand__show-button"] button').last
-        if show_all.count() == 0 or not show_all.is_visible():
-            print(f"    {name}: {before} entries (no collapsed list)")
+        if button.count() == 0 or not button.is_visible():
+            print(f"    {name}: {before} entries (already expanded/no button)")
             continue
 
         try:
-            show_all.click(timeout=8_000)
+            button.click(timeout=6_000)
         except Exception as exc:
-            # A transient overlay can intercept a normal Playwright click.
+            # Gold Derby sometimes detaches/replaces controls during layout.
+            # A native DOM click avoids the Playwright actionability race.
+            print(f"    {name}: Playwright click interrupted ({type(exc).__name__}); retrying via DOM")
             try:
-                show_all.click(force=True, timeout=4_000)
-            except Exception as retry_exc:
-                failures.append(f"{name}: click failed ({retry_exc})")
-                print(f"    {name}: See All click failed: {exc}")
-                continue
+                award.evaluate(AWARD_SHOW_ALL_JS)
+            except Exception:
+                pass
 
-        # Gold Derby loads the expanded contenders asynchronously. Do not move
-        # on, or parse the page, until the additional DOM entries have arrived.
-        try:
-            page.wait_for_function(
-                """({index, previousCount}) => {
-                    const section = document.querySelectorAll(
-                      '[data-component="predictions-award-item"]'
-                    )[index];
-                    return !!section && section.querySelectorAll(
-                      '[data-component="predictions-contestant-item"]'
-                    ).length > previousCount;
-                }""",
-                arg={"index": i, "previousCount": before},
-                timeout=12_000,
-            )
-        except Exception:
-            failures.append(f"{name}: still {items.count()} contenders after See All")
-        after = items.count()
-        print(f"    {name}: {before} -> {after} contenders")
-        if after > before:
+        if _wait_for_more_contenders(page, i, before):
             expanded += 1
+            print(f"    {name}: {before} -> {items.count()} contenders")
+        else:
+            retry.append((i, name, before))
+            print(f"    {name}: expansion pending; will retry after other awards")
+
+    failures: list[str] = []
+    for i, name, before in retry:
+        award = awards.nth(i)
+        items = award.locator('[data-component="predictions-contestant-item"]')
+        if items.count() > before:
+            expanded += 1
+            print(f"    {name}: delayed expansion now contains {items.count()} contenders")
+            continue
+        # Use fresh DOM nodes; the old locator may have been detached.
+        try:
+            clicked = award.evaluate(AWARD_SHOW_ALL_JS)
+        except Exception:
+            clicked = False
+        if clicked and _wait_for_more_contenders(page, i, before):
+            expanded += 1
+            print(f"    {name}: retry expanded {before} -> {items.count()} contenders")
+        else:
+            failures.append(f"{name}: {items.count()} entries after See All")
 
     if failures:
         raise RuntimeError(
-            "Gold Derby contender lists were not fully expanded; refusing "
-            "to save a truncated snapshot: " + "; ".join(failures)
+            "Gold Derby category expansion incomplete; refusing to save "
+            "a truncated odds snapshot: " + "; ".join(failures)
         )
     return expanded
 
