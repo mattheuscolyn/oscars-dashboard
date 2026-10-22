@@ -21,6 +21,26 @@ SPECIAL_TITLE_IS_FILM = {
 }
 
 
+# Read all contenders in a category with one browser round-trip. Once
+# expanded, a race can have 100+ contenders; per-field Playwright locators
+# on every row make the four-source scrape unnecessarily slow.
+RAW_CONTESTANTS_JS = r"""(award) => Array.from(
+  award.querySelectorAll('[data-component="predictions-contestant-item"]')
+).map((item) => {
+  const getText = (selector) =>
+    (item.querySelector(selector)?.textContent || '').trim();
+  const exactRank = Array.from(item.querySelectorAll('span'))
+    .map((span) => (span.textContent || '').trim())
+    .find((text) => /^\\d+$/.test(text)) || '';
+  return {
+    rank: getText('span[class*="contestantIndex"], [data-alias="predictions-contestant-item__index"]') || exactRank,
+    name: getText('[data-alias="predictions-contestant-item__title"]'),
+    subtitle: getText('[data-alias="predictions-contestant-item__sub-title"]'),
+    pct: getText('[data-alias="predictions-contestant-item__progress-text"]'),
+  };
+})"""
+
+
 def _safe_text(locator) -> str:
     try:
         text = (locator.inner_text(timeout=500) or "").strip()
@@ -74,9 +94,8 @@ def extract_source_odds(page: Page) -> dict[str, list[dict[str, Any]]]:
                 continue
 
             entries: list[dict[str, Any]] = []
-            items = award.locator('[data-component="predictions-contestant-item"]')
-            for j in range(items.count()):
-                entry = _parse_contestant(items.nth(j), category)
+            for raw in award.evaluate(RAW_CONTESTANTS_JS):
+                entry = _parse_contestant_fields(raw, category)
                 if entry:
                     entries.append(entry)
             if entries:
@@ -107,6 +126,37 @@ def extract_source_odds(page: Page) -> dict[str, list[dict[str, Any]]]:
         result.setdefault(category, []).append(entry)
 
     return result
+
+
+def _parse_contestant_fields(raw: dict[str, str], category: str) -> dict[str, Any] | None:
+    """Resolve the film, candidate and odds fields extracted from a DOM item."""
+    rank = _parse_rank(raw.get("rank") or "")
+    name = (raw.get("name") or "").strip()
+    if rank <= 0 or not name:
+        return None
+    subtitle = (raw.get("subtitle") or "").strip()
+    pct_raw = raw.get("pct") or "0%"
+
+    if category in PEOPLE_CATEGORIES and subtitle:
+        candidate = name
+        film = subtitle
+    elif category in SPECIAL_TITLE_IS_FILM:
+        candidate = subtitle or name
+        film = name
+    else:
+        candidate = name
+        film = name
+
+    quotes = "\\\"'" + "\\u201c\\u201d\\u2018\\u2019"
+    film = film.strip().strip(quotes)
+    candidate = candidate.strip().strip(quotes)
+
+    return {
+        "film": film,
+        "candidate": candidate,
+        "rank": rank,
+        "pct": _parse_pct(pct_raw),
+    }
 
 
 def _parse_contestant(item, category: str) -> dict[str, Any] | None:
