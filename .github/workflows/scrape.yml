@@ -1,6 +1,13 @@
 name: Scrape Gold Derby
 
 on:
+  # Refresh odds immediately when scraper code changes on main.
+  push:
+    branches: [main]
+    paths:
+      - 'scraper/**'
+      - 'scrape.py'
+      - '.github/workflows/scrape.yml'
   schedule:
     - cron: '0 12 * * *'
   workflow_dispatch:
