@@ -46,5 +46,19 @@ jobs:
                   print('CATEGORY:',h,'entries:',n,'controls:',controls,flush=True)
                   if i == 0:
                     print('First award outerHTML tail:', award.evaluate('(e) => e.outerHTML.slice(-3000)'),flush=True)
+              print('GLOBAL show controls:',page.locator('[data-component="predictions-award-item"] [data-alias="expand__show-button"]').count(),flush=True)
+              for idx in [0,1,2,3,4,6,10]:
+                  award=awards.nth(idx)
+                  heading=award.locator('h1,h2,h3,h4,h5,h6').first.inner_text()
+                  before=award.locator('[data-component="predictions-contestant-item"]').count()
+                  targets=award.locator('[data-alias="expand__show-button"]')
+                  button=award.locator('[data-alias="expand__show-button"] button').first
+                  print('BEFORE CLICK',heading,'entries',before,'targets',targets.count(),'button visible',button.is_visible(),flush=True)
+                  try:
+                      button.click(timeout=4000)
+                      page.wait_for_timeout(800)
+                      print('AFTER CLICK',heading,'entries',award.locator('[data-component="predictions-contestant-item"]').count(),'button visible',button.is_visible(),flush=True)
+                  except Exception as exc:
+                      print('CLICK ERROR',heading,str(exc)[:300],flush=True)
               browser.close()
           PY
