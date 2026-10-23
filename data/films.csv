@@ -3,7 +3,7 @@ film,tmdb_id,poster_path,certification,premiere_date,theatrical_date,theatrical_
 28 Years Later: The Bone Temple,1272837,/kK1BGkG3KAvWB0WMV1DfOx9yTMZ.jpg,R,,2026-01-16,wide,2026-02-17,,,tmdb
 9 Temples to Heaven,1046304,/6Qb11di83PyJpuJpNlxvJvi1kBd.jpg,,2026-10-07,,,,,Premiere: New York Film Festival,tmdb
 A Child of My Own,1616131,/kH2SrPtJY2GS8V3JuRc4QluNdlK.jpg,R,2026-04-19,2026-08-07,limited,2026-08-13,Netflix,Premiere: Full Frame Documentary Film Festival,tmdb
-A Fox Under a Pink Moon,951018,/pWhGSn4IaPOfNAgh9ZhGVhkuvO1.jpg,,,,,,,,tmdb
+A Fox Under a Pink Moon,951018,/pWhGSn4IaPOfNAgh9ZhGVhkuvO1.jpg,,,2026-12-02,limited,,,,tmdb
 A Long Winter,1534221,/dHeu7wMp9A5BuSJZvOi7gKBMilv.jpg,R,2026-09-04,2026-12-04,limited,,,Premiere: Telluride Film Festival; Also wide 2027-01-22,tmdb
 A Place in Hell,1437882,/4gSgzVw59vhegejEh1yMMfStXsU.jpg,R,,2026-12-25,wide,,,,tmdb
 A Statement,1618090,/6eGKmCHwnwWqaKkoRsrBfCtkHKf.jpg,,2026-10-03,,,,,Premiere: New York Film Festival,tmdb
@@ -24,7 +24,7 @@ Avengers: Doomsday,1003596,/jzPwsojjFStf5lR5Nm07w2hH56G.jpg,,,2026-12-18,wide,,,
 Backrooms,1083381,/rhGx6E3qRNMgj3i5su2oukNHwIQ.jpg,R,2026-05-07,2026-05-29,wide,2026-07-14,,"Premiere: Aero Theatre (Santa Monica, California)",tmdb
 Barbara Forever,1596326,/kYjCmL8sg17zoKtm5Pb6Cn4H0nB.jpg,,2026-01-24,2026-09-04,limited,,,Premiere: Sundance Film Festival,tmdb
 Becoming Human,1510537,/a8M0VtllI5p9Zt6fjywSq3cx2yP.jpg,,,,,,,,tmdb
-Bedford Park,1470198,/afH14yQ0xwyalCy3AyZrhQpRZyB.jpg,,2026-01-24,,,,,Premiere: Sundance Film Festival,tmdb
+Bedford Park,1470198,/afH14yQ0xwyalCy3AyZrhQpRZyB.jpg,,2026-01-24,2027-03-05,limited,,,Premiere: Sundance Film Festival,tmdb
 Behemoth!,1452168,/bcyGYWfcXr0GnXewaE5gkvYy1iQ.jpg,R,2026-10-02,2026-12-04,wide,,,Premiere: New York Film Festival,tmdb
 Being Heumann,1050981,/jctGiSU69ELojgDCTba0fCJ0JUV.jpg,R,2026-10-24,2026-11-06,limited,2026-11-12,Apple TV,Premiere: Philadelphia Film Festival,tmdb
 Bitter Christmas,1088548,/q030Fi4tubXBJKg3D9otPDgGP2o.jpg,R,2026-10-06,2026-11-13,limited,,,Premiere: New York Film Festival; Also wide 2026-11-25,tmdb
@@ -147,7 +147,7 @@ Sara Bareilles: Good Grief,1675218,/3HTsRhqVF2srz3JQTkz9DJjfgbW.jpg,,2026-06-04,
 Saturn Return,977548,/4NtkEJNctcf2MztNBA6RX4RS9Iw.jpg,,2024-05-11,2024-12-06,limited,,,Premiere: Seattle International Film Festival,tmdb
 Sense and Sensibility,1503762,/sYzWktm1YwJydX92fbSOWHJs33m.jpg,PG,2026-10-07,2026-10-14,limited,,,"Premiere: United Artists Theatre, Los Angeles; Also wide 2026-10-16",tmdb
 Shame and Money,1553591,/gr9fei545ySnBPk2xMbdLegB3xN.jpg,R,2026-01-25,,,,,Premiere: Sundance Film Festival,tmdb
-Shaun the Sheep: The Beast of Mossy Bottom,1477104,/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg,PG,,2026-09-18,wide,2026-10-27,,,tmdb
+Shaun the Sheep: The Beast of Mossy Bottom,1477104,/mMOptSPBVGUA9GHgnpsC35GzZ7e.jpg,PG,,2026-09-18,wide,2026-10-23,,,tmdb
 Silent Friend,1168719,/mZjkRpTFfcdsTmtIAzKVM87I94R.jpg,,2025-10-22,2026-05-08,limited,,,Premiere: Chicago International Film Festival,tmdb
 Soul Patrol,1591604,/sav8yadAjfykfFlZuFsclmrN9st.jpg,,2026-01-25,2026-11-06,limited,,,Premiere: Sundance Film Festival,tmdb
 "Soumsoum, the Night of the Stars",1376457,/kF9sOJYIiydmASe9goYz8c7Zgpn.jpg,,,,,,,,tmdb
@@ -222,5 +222,5 @@ Wildwood,791523,/8g7q6o54WfKWRmUQ0Ye8OskevUY.jpg,PG-13,,2026-10-23,wide,,,,tmdb
 Woman Unknown,1511780,/ly8Zf4McOMane0caBwnmuft6TTM.jpg,,,,,,,,tmdb
 Wuthering Heights,1316092,/3YBce6dTh1D5oCMITXk2S5QhPt.jpg,R,2026-01-28,2026-02-13,wide,2026-03-31,,"Premiere: Los Angeles, California",tmdb
 Yellow Letters,1315657,/8Sxp3QIdamyoAfgLsUaGCQ1Z1ID.jpg,,2026-10-16,,,,,Premiere: Philadelphia Film Festival,tmdb
-You Can See Everything,1765072,/qhFWz1BsEMg5rcs6TAstmGQggMT.jpg,R,2026-09-06,2026-10-16,limited,,,Premiere: Telluride Film Festival; Also wide 2026-10-23,tmdb
+You Can See Everything,1765072,/qhFWz1BsEMg5rcs6TAstmGQggMT.jpg,R,2026-09-06,2026-10-16,wide,,,Premiere: Telluride Film Festival,tmdb
 Your Mother Your Mother Your Mother,1437396,/4KaPZSKnInnArErTTgy9Oy14leR.jpg,R,2026-09-23,2026-09-25,limited,,,Premiere: Beyond Fest; Also wide 2026-10-16,tmdb
